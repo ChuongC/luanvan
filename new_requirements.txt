@@ -1,0 +1,27 @@
+#this requirement is working on Google Colab
+
+!pip install --upgrade bitsandbytes==0.41.3 python-dotenv python-Levenshtein
+
+!pip install ftfy regex tqdm==4.66.3 requests unidecode trafilatura==1.6.3 langdetect \
+    evaluate==0.4.1 rouge-score==0.1.2 haversine==2.8.0 bert_score==0.3.13 \
+    nltk==3.9.0 spacy==3.7.2 scikit-learn==1.5.0 scipy==1.11.4 \
+    python-dateutil numpy==1.26.4 pandas==2.1.1
+
+!pip install accelerate==0.30.0 transformers==4.40.2 peft==0.10.0 \
+    datasets==2.19.1 huggingface_hub==0.23.0
+
+
+!pip install torch==2.5.1 torchvision --extra-index-url https://download.pytorch.org/whl/cu121
+!pip install pillow==10.3.0 imagehash==4.3.1 google-cloud-vision==3.4.5 \
+    multilingual-clip==1.0.10
+!pip install git+https://github.com/openai/CLIP.git
+
+!pip install stanza spacy-stanza deep-translator googletrans==4.0.0-rc1
+
+!pip install selenium beautifulsoup4 newspaper3k
+!apt update && apt install -y chromium-chromedriver
+
+!pip install triton==2.1.0
+!pip install --upgrade gradio httpx safehttpx openai==0.28.1
+
+!python -m spacy download en_core_web_lg

@@ -1,0 +1,6 @@
+dataset/processed_img/the-massive-crowd-picture-of-modis-siliguri-meeting-was-photoshopped.png
+dataset/processed_img/false-this-image-of-a-muddy-road-is-from-c%c3%b4te-divoire-not-uganda-d855fe078819.png
+dataset/processed_img/fact-check-ramciel-citys-most-misleading-master-plan-photos.png
+dataset/processed_img/false-this-image-is-not-of-a-man-who-lost-his-real-estate-business-in-t%c3%bcrkiyes-february-2023-9496c462b994.png
+dataset/processed_img/fact-check-this-photo-of-muddy-shoes-wasnt-originally-taken-in-juba.png
+dataset/processed_img/fact-check-this-picture-isnt-of-an-olympic-stadium-design-to-be-built-in-south-sudan.png

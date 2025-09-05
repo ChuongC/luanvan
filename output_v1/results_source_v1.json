@@ -1,0 +1,1812 @@
+[
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-picture-of-ramdev-beef-biryani-recipe-mix-sold-by-patanjali-ayurvedic-limited.png",
+        "ground_truth": "National Foods Limited",
+        "output": "National Foods Limited"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-dont-show-tplf-tanks-destroyed-by-ethiopian-air-force-in-september-2022-e9c607643b91.png",
+        "ground_truth": "'GA-ASI' for the first image, and 'Defense Express' for the second image",
+        "output": "Answer: Military Technology"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-doesnt-show-a-drone-attack-in-adigrat-tigray-region-3df00e6844e3.png",
+        "ground_truth": "Addis Standard verified Twitter account",
+        "output": "Answer: Reuters news website"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-picture-of-ethiopian-politicians-debretsion-gebremichael-and-getachew-reda-is-88031716f43b.png",
+        "ground_truth": "Website on 23 December 2015",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-state-house-kenya-containing-a-yellow-cross-is-doctored-70be22bd433b.png",
+        "ground_truth": "Kenya's State House Facebook page and Twitter account",
+        "output": "Answer: TUKO"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-oromo-artists-in-military-uniform-is-doctored-4e1eacfb3473.png",
+        "ground_truth": "Anadolu Agency photographer Minasse Wondimu Hailu",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-a-drone-attack-in-mekelle-eb238f760dc.png",
+        "ground_truth": "A YouTube video",
+        "output": "The Express Tribune"
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-showing-a-uda-branded-wheelbarrow-hoisted-at-state-house-nairobi-is-satirical-7850fcb262ee.png",
+        "ground_truth": "State House official pages",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-isnt-an-image-of-tplf-troops-surrendering-to-afar-popular-forces-abbfb14f6c0.png",
+        "ground_truth": "Stringer/AFP via Getty Images",
+        "output": "Answer: TRT World\u2019s website on 16 November 2018, and AFP was credited."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-photos-allegedly-of-a-bride-running-out-of-a-church-are-not-taken-in-juba.png",
+        "ground_truth": "Sunday Ikemefula (Facebook user)",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-unrelated-to-war-in-northern-ethiopia-7bdbc318bfa.png",
+        "ground_truth": "Addis Standard verified Twitter account, Ethiopian Monitor website",
+        "output": "Answer: Nation Media Group photographer Jeff Angote for the photos taken in Somalia."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-airstrikes-in-tigray-e970a411f218.png",
+        "ground_truth": "Anadolu Agency website",
+        "output": "Reuters news website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-ex-kenyan-president-uhuru-kenyatta-attending-queen-elizabeths-fc158694bfc7.png",
+        "ground_truth": "State House Kenya",
+        "output": "The Star news website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-dont-show-the-ethiopian-national-defense-force-destroying-tplf-trucks-in-27d9d95af7.png",
+        "ground_truth": "First image: Vida press via Lithuanian National Radio and Television. Second image: BBC News Afaan Oromoo",
+        "output": "Answer: AFP ; iStock ; Petros Giannakouris"
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-doesnt-show-a-sleeping-parlour-used-by-african-presidents-in-london-during-457f2b2a8774.png",
+        "ground_truth": "St George\u2019s Girls Secondary School, Nairobi, Kenya",
+        "output": "Answer: Taken at the Neonatal Intensive Care Unit in Kawempe Hospital."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-doesnt-show-an-ethiopian-air-force-attack-on-a-tplf-military-base-in-mekelle-in-1881077bbe5e.png",
+        "ground_truth": "The Aviation reports",
+        "output": "Answer: Yqqlm website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-an-ethiopian-air-force-attack-on-tplf-leaders-in-agula-town-tigray-39c63879fd15.png",
+        "ground_truth": "First image: Anna Zvereva; Second image: Yasuyoshi Chiba/AFP via Getty Images",
+        "output": "Answer: Press Service of the Eastern Military District of the Russian army, MoD Crown Copyright/PA"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-do-not-show-ethiopian-air-force-attacking-tplf-troops-in-mekelle-18888d7b3fe6.png",
+        "ground_truth": "First image- Euroradio, Second image- Mereja Forum, Third image- Aleksandr Markin on Wikimedia Commons",
+        "output": "Answer: Press Service of the Eastern Military District of the Russian army."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-arent-of-presidents-nana-akufo-addo-and-emmerson-mnangagwa-driving-coaches-463ef98c535e.png",
+        "ground_truth": "Nation Africa",
+        "output": "Answer: Not specified in the provided articles."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-a-drone-attack-on-a-world-food-program-truck-in-tigray-81737f42ce16.png",
+        "ground_truth": "Ethan Miller/Getty Images",
+        "output": "Answer: John Kilmer"
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-does-not-show-metro-shuttle-matatus-in-london-3ee121820a1c.png",
+        "ground_truth": "BBC",
+        "output": "Answer: Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/an-image-from-the-documentary-film-messi-is-shared-as-real-childhood-picture-of-lionel-messi.png",
+        "ground_truth": "The 'Messi' documentary film",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-photo-showing-an-incident-involving-south-sudanese-in-kenya-no.png",
+        "ground_truth": "Business Daily",
+        "output": "The original image was captured by Dai Kurokawa of the European Pressphoto Agency."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-photographer-lying-on-the-ground-to-capture-pm-modis-photo.png",
+        "ground_truth": "Official Twitter handle of Prime Minister Narendra Modi, Alamy",
+        "output": "Union Minister Arjun Ram Meghwal's official Twitter handle"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-the-ethiopian-defence-force-drones-in-the-tigray-region-airspace-1c3a8113b30.png",
+        "ground_truth": "The images originated from different sources including the SM news website, Shutterstock, The Defense Post website, and the Oryx website",
+        "output": "Various sources, including the Defence World website, YouTube, the Khaama Press website, Twitter, the FDRE Defence Force verified Facebook account."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-related-to-the-ongoing-conflict-in-northern-ethiopia-in-september-2022-d14cc7a74a85.png",
+        "ground_truth": "Fana Broadcasting Corporate (FBC) and Ethiopian News Agency",
+        "output": "Answer: REUTERS/Mohamed Nureldin Abdallah and AP"
+    },
+    {
+        "img_path": "dataset/processed_img/the-girl-in-this-photo-who-lost-her-life-due-to-cancer-is-not-south-african-cricketer-david-millers-daughter.png",
+        "ground_truth": "David Miller",
+        "output": "Answer: Getty"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-shows-bullet-train-maintenance-centre-in-china-not-gujarat.png",
+        "ground_truth": "New China TV",
+        "output": "China Railway Rolling Stock Corporation"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-billboard-stating-journalist-anjana-kashyap-as-unofficial-spokesperson-of-bjp.png",
+        "ground_truth": "India Today",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-kiran-rao-before-her-divorce-from-aamir-khan-shared-as-the-recent-one.png",
+        "ground_truth": "Bollywood Tadka",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/the-japanese-bullet-train-in-this-photo-suffered-a-crack-on-its-bonnet-after-hitting-a-man-not-an-animal.png",
+        "ground_truth": "Getty Images",
+        "output": "Answer: Japan Railways Group"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-from-a-rally-in-nigeria-shared-as-huge-crowd-at-bharat-jodo-yatra-rally-in-ballari.png",
+        "ground_truth": "Christ for all Nations (CfaN)",
+        "output": "The source/author of this image is not identifiable based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-doesnt-show-ethiopian-commandos-entering-tigrayan-towns-in-september-2022-8d44bdd30be9.png",
+        "ground_truth": "Amanuel Sileshi/AFP via Getty Image",
+        "output": "Answer: Standard Group photographer"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-an-airstrike-at-shire-town-tigray-region-c7ac1cae4f13.png",
+        "ground_truth": "Igor Dvurekov",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-eritreas-air-force-attacking-people-at-adi-daero-tigray-region-in-1caa2b82d2c4.png",
+        "ground_truth": "Ngh\u00ea An website",
+        "output": "Answer: MasrAlarabia website"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-is-not-a-photo-of-youngsters-rigathi-gachagua-and-william-ruto-a8d083ff865d.png",
+        "ground_truth": "DP Gachagua\u2019s Facebook page",
+        "output": "Answer: The Standard, a Kenyan publication"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-bobi-wine-holding-a-portrait-of-gen-muhoozi-kainerugaba-is-doctored-61a1c7d8b566.png",
+        "ground_truth": "Bobi Wine\u2019s official Facebook page",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-is-not-an-image-of-a-military-drone-shot-down-by-the-ethiopian-air-force-as-it-entered-fb68019e3dcb.png",
+        "ground_truth": "Chinese TV",
+        "output": "The Source (Online Magazine)"
+    },
+    {
+        "img_path": "dataset/processed_img/no-such-massive-buddhist-conversion-event-was-held-in-jaipur-recently-images-show-dhamma-mela-organized-in-maharashtra.png",
+        "ground_truth": "Prabuddh Bharat",
+        "output": "Answer: Pakistan Muslim League (Nawaz)"
+    },
+    {
+        "img_path": "dataset/processed_img/edited-photo-of-a-pakistani-baby-born-with-a-polymelia-disorder-shared-as-miracle-baby-born-with-a-lord-shiva-symbol-on-his-forehead.png",
+        "ground_truth": "First Post news website",
+        "output": "I'm sorry, but I can't provide information about the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-photo-showing-two-wives-of-a-police-officer-who-gave-birth-on-the-same-day.png",
+        "ground_truth": "Hot in Juba",
+        "output": "Answer: Taken at the Neonatal Intensive Care Unit in Kawempe Hospital."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-shared-as-pictures-of-indian-army-vehicles-that-were-hit-by-a-massive-landslide-in-ladakh.png",
+        "ground_truth": "1) Indian Air Force's Twitter account,  2) \u2018East Mojo\u2019 news website, 3) \u2018Great Kashmir\u2019 news website",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-a-photo-of-chinese-actor-jackie-chan-wearing-a-t-shirt-branded-with-the-face-of-gen-5e765612d0e3.png",
+        "ground_truth": "Photograph taken during the 'Kick It With the Karate Kid' Street Festival",
+        "output": "The original author is the photographer or agency that captured the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-pictures-claiming-to-show-a-climate-change-activist-supporting-the-eacop-project-are-d40a7168238d.png",
+        "ground_truth": "Hillary Seguya",
+        "output": "I'm sorry, but I can't determine the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-sp-leader-azam-khan-with-a-shaved-head-is-an-edited-one.png",
+        "ground_truth": "Akhilesh Yadav",
+        "output": "Multiple sources including a photo collection from India Today"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-fighting-between-government-soldiers-and-ola-in-west-sheger-in-september-33acb17b8cca.png",
+        "ground_truth": "Alwadf, an Arabic online news source",
+        "output": "Answer: Standard Group photographer"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-a-tplf-weapons-depot-destroyed-by-the-ethiopian-air-force-in-shire-fe13bd3303c6.png",
+        "ground_truth": "Ostannipodii.com, Bikha website, Defense Express website, and Censor.net website",
+        "output": "Answer: Not specified in the provided articles."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-an-airstrike-on-tplf-training-camps-6d77d3acf837.png",
+        "ground_truth": "The first image was originally published on Pinterest. The second image was published on the Propakistani website",
+        "output": "MasrAlarabia website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-do-not-show-tplf-tanks-destroyed-in-raya-in-2022-f16249b7c513.png",
+        "ground_truth": "Reuters photographer Kumera Gemechu ; Reuters photographer Tiksa Negeri ; Eduardo Soteras/AFP/Getty Images",
+        "output": "Answer: AP Photo/Emilio Morenatti"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-belarusian-russian-joint-military-offensive-on-ukraine-22f9fab96606.png",
+        "ground_truth": "BBC",
+        "output": "UAWire news website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-two-men-arrested-in-possession-of-human-bones-in-kenya-b554f5fb6ea.png",
+        "ground_truth": "The Daily Trust",
+        "output": "I'm sorry, but I can't provide information about the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-isnt-of-an-ethiopian-air-force-drone-attack-on-tplf-forces-524d3ee61bd0.png",
+        "ground_truth": "Reuters",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-general-muhoozi-kainerugaba-pouring-himself-a-beer-is-doctored-113180ba316c.png",
+        "ground_truth": "Original photo taken at the launch of a new beer by Nile Breweries",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-the-ethiopian-air-force-dropping-warning-leaflets-on-mekelle-city-25863e4f278.png",
+        "ground_truth": "United States Department of Defense",
+        "output": "The source/author of this image is not specified in the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-helicopter-made-at-arusha-technical-college-tanzania-fcafb848e7b4.png",
+        "ground_truth": "OneIndia",
+        "output": "The Dynali Helicopter Company"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-of-a-man-beaten-by-police-was-not-taken-in-uganda-bc13c9ed67b3.png",
+        "ground_truth": "DailyNewsSA",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-image-of-ethiopian-politician-getachew-reda-is-doctored-7528c14a39d1.png",
+        "ground_truth": "izusek",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-an-attack-on-tigray-by-the-ethiopian-air-force-17cfbc1839c2.png",
+        "ground_truth": "Alamy website",
+        "output": "MasrAlarabia website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-depict-ethiopian-national-defense-forces-in-selekleka-town-tigray-region-in-9d980eee616c.png",
+        "ground_truth": "AFP Photographer Amanuel Sileshi, via Getty Images",
+        "output": "Answer: Associated Press, the photo is credited to Ben Curtis."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-ethiopian-soldiers-marching-toward-alamata-in-october-2022-d336f71c89d1.png",
+        "ground_truth": "Amhara Media Corporation",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-iranian-missiles-given-to-russia-in-october-2022-52efc654ec43.png",
+        "ground_truth": "The first image is from The Defense post, the second is from the Gulf International Forum, and the third image's specific source is unclear",
+        "output": "Answer: TASS via Reuters"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-the-ethiopian-army-controlling-shire-alamata-and-korem-towns-in-october-ad9b99245da.png",
+        "ground_truth": "FDRE Government Communication Service\u2019s official Twitter account, BBC Afaan Oromoo website",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-are-not-of-the-ethiopian-army-controlling-tigray-towns-in-october-2022-57c9b8059f7f.png",
+        "ground_truth": "Various, including Amanuel Sileshi/AFP via Getty Images, Pinterest, Tannen Maury/AP, Anadolu Agency photographer Minasse Wondimu Hailu, and Ben Curtis/AP",
+        "output": "Answer: Associated Press, the photo is credited to Ben Curtis."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-isnt-of-ethiopian-soldiers-controlling-aksum-in-october-2022-4651852c6050.png",
+        "ground_truth": "Tghat website",
+        "output": "Answer: TRT World\u2019s website on 16 November 2018, and AFP was credited."
+    },
+    {
+        "img_path": "dataset/processed_img/false-students-seated-on-the-ground-doing-an-exam-in-this-picture-are-not-from-butaleja-eastern-444259968958.png",
+        "ground_truth": "A blog called Scholars Tanzania",
+        "output": "I don't know who the source or author of the image is."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-picture-of-tplf-spokesperson-getachew-reda-in-a-hospital-bed-is-doctored-66f84fb60994.png",
+        "ground_truth": "Sumaya Hisham, a Reuters photographer.",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/old-and-unrelated-pictures-shared-as-the-latest-pictures-of-imran-khan-after-he-was-shot-at-during-gujranwala-rally.png",
+        "ground_truth": "Imran Khan's Official Twitter Handle",
+        "output": "Answer: AAP Punjab Twitter handle, Getty images"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-a-100-feet-long-american-dream-car-falsely-shared-as-shahrukh-khans-limousine-in-dubai.png",
+        "ground_truth": "Amar Ujala news website, The Express news website",
+        "output": "Answer: @gk.crack.exam"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-road-in-kenya-7ed27431d90.png",
+        "ground_truth": "Getty Images",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-one-of-the-images-is-not-related-to-a-rocket-attack-on-shire-town-8ff50793545.png",
+        "ground_truth": "Fotoreserg ; Dimtsi Weyane\u2019s Facebook page and YouTube channel",
+        "output": "Answer: DW (Deutsche Welle)"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-kenyans-queuing-to-receive-relief-food-283d0a21a397.png",
+        "ground_truth": "Human Rights Watch",
+        "output": "Answer: Dai Karukowa of EPA; Associated Press"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-the-statue-of-unity-with-names-written-on-it-is-a-morphed-one.png",
+        "ground_truth": "PTI",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-airstrike-in-the-oromia-region-in-october-2022-7e1593d017b6.png",
+        "ground_truth": "123ru.net",
+        "output": "Answer: MasrAlarabia website"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-first-picture-of-ranbir-kapoor-and-alia-bhatt-couples-newborn-baby-girl.png",
+        "ground_truth": "Ali Maffucci",
+        "output": "Answer: NDTV, Getty Images, Yahoo, Shutterstock"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-manmohan-singh-and-pm-modi-at-g20-summits-are-compared-with-a-misleading-narrative.png",
+        "ground_truth": "Reuters",
+        "output": "The Press Information Bureau of the government"
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-are-not-of-a-tanzanian-pastor-who-opened-a-sex-church-in-kenya-1abc7343fcaa.png",
+        "ground_truth": "The Standard - Identified as Onesmo Machibya alias Nabii Tito",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-nandi-cottages-in-kenyas-kapsabet-town-90249c168261.png",
+        "ground_truth": "Benny Tang",
+        "output": "Answer: Marina Bay Sands"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-ethiopian-government-forces-controlling-mekelle-in-october-2022-9545344cb061.png",
+        "ground_truth": "The image was originally published on the Nova news website.",
+        "output": "Answer: Associated Press, the photo is credited to Ben Curtis."
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-of-a-plane-crash-at-entebbe-international-airport-are-misleading-84114b8e2810.png",
+        "ground_truth": "Uganda Civil Aviation Authority",
+        "output": "Answer: Multiple sources; specific authors not identified."
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-does-not-show-the-drought-situation-in-embolioi-kajiado-county-in-october-2022-3387774a4c74.png",
+        "ground_truth": "Prof. Dagmar Schoder, president of VSF Austria",
+        "output": "Answer: JOEL ROBINE/AFP via Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/this-picture-is-not-a-rare-photograph-of-the-chola-princess-kundavai.png",
+        "ground_truth": "Alamy stock photos, British Library website",
+        "output": "Answer: British Museum"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-isnt-that-of-the-bugolobi-luzira-road-in-kampala-uganda-5cd831a61828.png",
+        "ground_truth": "Praveen Thakur of Dainik Bhaskar",
+        "output": "Answer: Times of India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-no-this-image-isnt-of-russia-s-attack-on-nato-warplanes-6901ea13876d.png",
+        "ground_truth": "Isca News Website",
+        "output": "The Express Tribune"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-image-said-to-be-of-citizen-tv-referring-to-raila-odinga-as-a-bondo-resident-is-doctored-9a16aa52138c.png",
+        "ground_truth": "Citizen TV",
+        "output": "Raila Odinga"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-doesnt-show-an-airstrike-on-tplf-leaders-482319be6c72.png",
+        "ground_truth": "The photo was originally published by Defence Web on 12 March 2020, and on the Hurriyet Daily News website on 27 August 2013.",
+        "output": "U.S. Air Force"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-pakistani-womans-photo-is-shared-as-that-of-a-love-jihad-victim-in-india.png",
+        "ground_truth": "Dainik Bhaskar, Local media, and Pakistani media reports",
+        "output": "Answer: India Times"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-was-messi-locked-up-in-saudi-arabia-no-an-old-picture-first-used-in-2012.png",
+        "ground_truth": "u/gaping_your_mother Reddit User, Bar\u00e7a Worldwide Twitter User, AFP/Al- Watan Newspaper via Getty Images",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-do-not-show-an-airstrike-on-olonkomi-and-mendi-towns-in-the-oromia-region-3e4c8ecb1fcc.png",
+        "ground_truth": "Image 1: A BBC article titled, 'Ethiopia\u2019s Tigray crisis: Fact-Checking misleading images', Image 2: Itamilradar website article titled, 'New surveillance mission by Turkish drone'",
+        "output": "Answer: Steve Forest/AFP, archived by Getty images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-russian-military-equipment-used-to-disable-ukraine-s-weapons-daef46a66d67.png",
+        "ground_truth": "Sofiia Gatilova (Reuters Photographer)",
+        "output": "Answer: Creative Commons"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-some-of-these-images-do-not-show-the-bombing-in-mendi-and-the-victims-a9daf5a813bb.png",
+        "ground_truth": "Multiple (including Anthony Pecchi for the image belonging to the Uzbekistan Air Force, Al Jazeera for images of killings in Nigeria)",
+        "output": "MasrAlarabia website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-victims-of-hunger-in-oromia-4b8818de03a3.png",
+        "ground_truth": "Antoine de Ras, The Star",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-does-not-show-an-airstrike-on-selale-town-in-november-2022-fd5269626056.png",
+        "ground_truth": "Birol Berek/AFP via Getty Images",
+        "output": "Answer: AFP"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-the-ethiopian-air-force-troops-heading-to-the-tongo-kebele-b495fb714d0e.png",
+        "ground_truth": "The Insider website",
+        "output": "Yqqlm website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-does-not-show-a-town-in-kenya-d36d4adcaacc.png",
+        "ground_truth": "Michael Weber",
+        "output": "Answer: EarthWonders, listal.com, boredpanda.com, laptrinhx.com"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-col-navjot-singh-bal-who-died-in-april-2020-shared-as-recent-pictures-of-a-hospitalised-indian-army-soldier.png",
+        "ground_truth": "Neeraj Rajput, a journalist from ABP News",
+        "output": "The image of PPS Dhillon was originally posted by his son on Facebook."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-does-not-show-a-victim-of-an-airstrike-in-mendi-2d1a09356b80.png",
+        "ground_truth": "Tiksa Negeri/Reuters Media Express",
+        "output": "Associated Press"
+    },
+    {
+        "img_path": "dataset/processed_img/false-no-this-image-isnt-of-an-airstrike-on-west-shewa-chobi-town-in-november-2022-a5159883d451.png",
+        "ground_truth": "The Gazing skyward media website",
+        "output": "Answer: MasrAlarabia website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-used-to-show-construction-of-likoni-bypass-is-not-from-kenya-58edacf9d8a4.png",
+        "ground_truth": "Associated Press (AP)",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-picture-of-barack-obama-and-joe-biden-posing-with-bobi-wine-is-doctored-30b98b24de1f.png",
+        "ground_truth": "Joe Biden",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-sexually-explicit-textbook-being-used-in-kenyas-cbc-education-system-a047d95d4b8e.png",
+        "ground_truth": "Bongani Bingwa",
+        "output": "I'm sorry, but I can't provide that information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-ethiopian-soldiers-who-surrendered-to-the-oromo-liberation-army-1ba4e0a97afd.png",
+        "ground_truth": "The official Facebook page of the FDRE Defense Force",
+        "output": "Answer: raadreeb.com; Standard Group photographer"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-yes-these-images-show-a-traffic-jam-along-seventh-day-gudele-street-in-juba.png",
+        "ground_truth": "Advance Digital",
+        "output": "Dessie City Administration Urban Development and Construction Department"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-have-no-relation-to-the-recent-anti-brahmin-slogans-issue-at-jnu.png",
+        "ground_truth": "Pushpak Sen",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-image-shared-as-japans-earthquake-resistant-floating-home.png",
+        "ground_truth": "Some users on YouTube and 9GAG",
+        "output": "Answer: Ronakians"
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-in-this-post-are-not-of-the-eritrean-army-202681a99edf.png",
+        "ground_truth": "An unnamed website published on 16 February 2021",
+        "output": "Answer: Steve Forest/AFP, archived by Getty images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-is-not-of-an-airstrike-on-nunu-kumba-east-wollega-in-november-2022-dc610d3c957c.png",
+        "ground_truth": "US Navy",
+        "output": "Answer: Reuters news website"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-do-not-show-people-who-wrote-anti-brahmin-slogans-on-jnu-walls.png",
+        "ground_truth": "Campaign Against State Repression (CASR) Facebook page",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-amhara-genocide-in-oromia-2cb75cc7d104.png",
+        "ground_truth": "David Turnley/Corbis/VCG via Getty Images",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-image-is-not-of-ethiopia-preparing-to-launch-its-second-satellite-748000198215.png",
+        "ground_truth": "Indian Space Research Organisation\u2019s (ISRO)",
+        "output": "Answer: Ethiopian Space Science and Technology Institute"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-doesnt-show-arms-taken-from-ethiopian-government-forces-ddd3713f14f8.png",
+        "ground_truth": "The Dawn website",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-these-images-are-not-of-a-protest-in-ethiopias-mekelle-city-in-november-2022-b997dcb26af8.png",
+        "ground_truth": "Original photos posted on DW website and a Facebook account",
+        "output": "The source/author of this image is not identifiable based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-no-these-photos-do-not-show-a-drinking-competition-in-juba-recently.png",
+        "ground_truth": "Images first appeared on the Twitter handle Kulani",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-do-not-show-a-crowd-gathering-at-rahul-gandhis-bharat-jodo-yatra-in-rajasthan.png",
+        "ground_truth": "Pankaj Maharaj's Facebook page",
+        "output": "The source/author of this image is not identifiable based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-south-sudanese-pastor-bathing-women-in-church-no-the-photos-are-by-a-ghanaian-skitmaker.png",
+        "ground_truth": "Mark Mensah, the CEO of Phens Multimedia in Ghana",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/edited-image-shared-as-rahul-gandhi-wearing-a-babas-attire.png",
+        "ground_truth": "Indian National Congress",
+        "output": "Answer: AAP Punjab Twitter handle, Getty images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-fulani-kidnappers-captured-with-arms-by-the-biafran-vigilante-6a487bb9e1dd.png",
+        "ground_truth": "First Image: The Star, Second Image: Twitter account Crime & Terrorism Watch Kenya",
+        "output": "Answer: 'India Today', 'Gujarat Headline', 'Tumblr'"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-25-metre-skeleton-found-in-gojjam-ethiopia-12e70b1c10bf.png",
+        "ground_truth": "Pinterest, original image credit given to Mike Hettwer",
+        "output": "Answer: Unknown source"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-drone-attack-on-the-oromo-liberation-army-d27b1cb17711.png",
+        "ground_truth": "Getty Images",
+        "output": "Senior Airman Jean-Paul Arnaud-Marquez"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-chaka-project-in-addis-ababa-a0e54de868b2.png",
+        "ground_truth": "Multiple sources including Pinterest and Stefano Boeri Architetti",
+        "output": "Answer: A Singapore based news agency"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-the-eritrean-army-leaving-the-tigray-region-in-november-2022-a8631945a6da.png",
+        "ground_truth": "Steve Forrest/EPA",
+        "output": "Answer: Fahad Shadeed"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-airstrike-around-ambo-town-in-november-2022-682afb9ef13.png",
+        "ground_truth": "A-10C Thunderbolt II Demonstration Team",
+        "output": "Answer: Orunjiwar Biyru"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-is-not-of-eritrean-troops-withdrawing-from-tigray-ethiopia-in-november-5ff0d86cf0.png",
+        "ground_truth": "Steve Forrest, AFP Photographer",
+        "output": "Answer: Aaron Ross for Reuters"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-an-airstrike-attack-on-ethiopias-bedasa-jarso-town-in-december-2022-5f7349e85421.png",
+        "ground_truth": "Mahdi Marizad of Fars News",
+        "output": "Answer: Reuters news website"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-a-flying-drone-strapped-hanuman-idol-shared-as-a-picture-of-real-hanuman-flying-in-sky.png",
+        "ground_truth": "A Mumbai-based marketing company for promotion of their TV show \u2018Sankatmochan Mahabali Hanuman\u2019",
+        "output": "Answer: Unknown source/author."
+    },
+    {
+        "img_path": "dataset/processed_img/visually-impaired-girls-photo-is-incorrectly-shared-as-she-saw-the-nuclear-blast-in-hiroshima.png",
+        "ground_truth": "Christer Str\u00f6mholm",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-the-image-isnt-of-an-airstrike-on-begi-oromia-region-in-december-2022-b540cb70b2b8.png",
+        "ground_truth": "A website from November 2015",
+        "output": "Answer: Feng Li via Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-an-airstrike-on-west-sheger-8e9be4e631dc.png",
+        "ground_truth": "John Moore/Getty Images",
+        "output": "U.S. Air Force"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-amhara-ethnic-victims-in-arsi-in-november-2022-743471b058f7.png",
+        "ground_truth": "REUTERS/Andrew Heavens AH/RSS/CN",
+        "output": "Answer: Associated Press"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-victims-of-wollega-massacre-90aa8ef2d154.png",
+        "ground_truth": "Reuters",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-claiming-to-be-of-wollega-conflict-bodies-is-doctored-488cedbc73ba.png",
+        "ground_truth": "Adanech Abiebie, the Addis Ababa City mayor; A Twitter user",
+        "output": "Answer: Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-is-not-of-tigray-forces-in-control-of-korem-city-after-the-november-2022-peace-deal-606045c0fc9d.png",
+        "ground_truth": "The image was originally posted on the TPLF\u2019s verified Facebook page.",
+        "output": "Answer: TRT World\u2019s website on 16 November 2018, and AFP was credited."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-oromia-police-officers-joining-protests-in-december-2022-6e32950d24ad.png",
+        "ground_truth": "Addis Standard Twitter account",
+        "output": "Answer: Associated Press"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-us-army-personnel-who-had-undergone-an-ear-reconstruction-surgery-on-forearm.png",
+        "ground_truth": "Stelarc, an Australian artist and a professor at Curtin University in Perth",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-allegedly-related-to-the-2020-galwan-clash-shared-now-in-the-context-of-the-recent-india-china-scuffle-in-the-tawang-sector.png",
+        "ground_truth": "Chinese journalist Shen Shiwei",
+        "output": "Indian army"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-picture-of-moroccan-footballers-holding-an-oromo-liberation-front-flag-has-been-doctored-9c93c1b337b0.png",
+        "ground_truth": "Ilias Emilian Chair's official Instagram account",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-ethiopian-house-of-federation-speaker-agegnehu-teshager-is-doctored-27a28c6032a6.png",
+        "ground_truth": "Agegnehu Teshager's Verified Facebook Page",
+        "output": "Answer: AP"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-martha-karua-in-the-bahamas-4fe8d381bd67.png",
+        "ground_truth": "Martha Karua",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-the-image-is-not-of-oromia-special-forces-beating-ethnic-amhara-students-in-december-2022-e7a687291004.png",
+        "ground_truth": "Human Rights Watch",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-picture-does-not-show-a-person-arrested-in-wollega-in-2022-f701d0d0ad47.png",
+        "ground_truth": "BBC Afaan Oromoo, Addis Standard",
+        "output": "Answer: Steve Forest/AFP, archived by Getty images"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-claiming-to-show-an-attack-on-ethnic-amharas-in-dera-is-doctored-373ec74401b0.png",
+        "ground_truth": "Two images, one being posted on Addis Standard website on 3 January 2022 and another which has been online since 2019",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/this-post-shares-an-edited-image-to-claim-that-cristiano-ronaldo-is-supporting-argentina.png",
+        "ground_truth": "Cristiano Ronaldo",
+        "output": "Cristiano Ronaldo"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-ronaldo-shared-as-that-captured-during-the-2022-argentina-france-football-world-cup-final.png",
+        "ground_truth": "Pier Marco",
+        "output": "Answer: Cristiano Ronaldo"
+    },
+    {
+        "img_path": "dataset/processed_img/an-altered-image-shared-as-a-picture-of-joe-biden-touching-volodymyr-zelenskyys-posterior-during-their-recent-meeting-at-the-white-house.png",
+        "ground_truth": "US First Lady Jill Biden",
+        "output": "Joe Biden and Jill Biden"
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-of-traffic-jam-in-manali-during-christmas-new-year-holidays-shared-as-recent-one.png",
+        "ground_truth": "Yash",
+        "output": "Answer: TheDearCrush"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-children-dressed-in-hindu-attire-and-dining-on-banana-leaves-was-not-taken-in-germany.png",
+        "ground_truth": "A Facebook post associated with Bhaktivedanta Gurukul",
+        "output": "ISKCON Mayapur"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-pictures-are-being-attributed-to-pm-narendra-modis-late-mother-heeraben-modi.png",
+        "ground_truth": "Multiple sources; Maryala Srinivas for Photo 1, Navbharat Times for Photo 2, NDTV for Photo 3",
+        "output": "Answer: Heeraben Modi"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-pm-modi-with-a-tonsured-head-is-a-morphed-one.png",
+        "ground_truth": "The original image was taken off of Narendra Modi during the Parliament winter session in 2017.",
+        "output": "Answer: Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/2019-photo-of-deepika-padukone-linked-to-the-ongoing-row-over-her-saffron-coloured-costume-in-pathaan-film.png",
+        "ground_truth": "Deepika Padukone\u2019s stylist Shaleena Nathani",
+        "output": "The Indian Express"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-rahul-gandhi-consuming-alcohol-and-non-veg-food.png",
+        "ground_truth": "Paranjoy Guha Thakurta",
+        "output": "The Economic Times"
+    },
+    {
+        "img_path": "dataset/processed_img/both-these-images-show-cleaning-by-indian-railways-under-the-current-nda-government.png",
+        "ground_truth": "Reuters ; Eastern Railway",
+        "output": "Postcard News"
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-of-a-rickshaw-puller-who-died-from-a-heart-attack-recently-shared-as-a-death-due-to-cold-weather.png",
+        "ground_truth": "Facebook user named Shubham Shekar and a Delhi-based Media Organisation named National News Story",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-drone-attack-on-kombolcha-town-in-the-oromia-region-in-november-2022-fb652ebf4248.png",
+        "ground_truth": "Iranian Army/Handout/Anadolu Agency via Getty Images",
+        "output": "Answer: Reuters news website"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-massacre-in-oromia-by-fano-and-eritrean-forces-deacf501b384.png",
+        "ground_truth": "The Amhara Genocide website",
+        "output": "Answer: Corrine Dufka for the mass grave image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-nigerian-politician-bola-tinubu-with-joe-biden-at-the-white-house-is-d108b60f91e4.png",
+        "ground_truth": "Bayo Onanuga, via APC PCC Media & Publicity",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-raila-odinga-watching-president-rutos-media-roundtable-interview-on-4-d8679f442bd1.png",
+        "ground_truth": "Citizen TV and NTV",
+        "output": "Deputy President's Facebook page"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-checking-president-kaguta-musevenis-tweet-of-an-image-of-rwenzori-mountains-1ee7e224ad94.png",
+        "ground_truth": "Eakkapan Asavapanumas",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/digitally-edited-image-shared-as-visuals-of-police-guarding-a-theatre-screening-pathaan-movie.png",
+        "ground_truth": "News reports from 2018",
+        "output": "Answer: The source/author of this image is not identifiable based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/2021-photo-of-bjp-and-congress-leaders-meeting-speaker-om-birla-shared-as-bjps-secret-meeting-with-congress.png",
+        "ground_truth": "Times of India",
+        "output": "Answer: ANI"
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-picture-is-not-from-a-scene-of-a-protest-in-sudan-in-january-2023-214f4a04a854.png",
+        "ground_truth": "Mohamed Nureldin Abdallah",
+        "output": "Answer: Jeff Angote of the Nation Media Group"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-picture-is-not-related-to-an-attack-on-fano-troops-87ef80275ab4.png",
+        "ground_truth": "Addis Maleda website",
+        "output": "Answer: Chinese News Service"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-picture-does-not-show-chinas-military-exercise-in-taiwan-in-january-2023-501a9d0c1e0d.png",
+        "ground_truth": "Atlantic Council",
+        "output": "NT News Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-amhara-special-forces-on-the-move-from-raya-in-december-2022-cd16c28972b9.png",
+        "ground_truth": "A website report from March 2022",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/english-this-photo-does-not-show-a-1400-year-old-pallava-stonework-at-lalgiri-temple.png",
+        "ground_truth": "Raul Cruz",
+        "output": "Andrea L. Bell & Yolanda Molina-Gavil\u00e1n"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-man-detained-in-nyamache-kisii-county-for-defiling-his-two-children-3db251db8c7c.png",
+        "ground_truth": "Malawi 24",
+        "output": "The source/author of this image is not specified in the provided articles."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-aerial-view-of-kenyas-masinde-muliro-university-of-science-and-c3cfe8034fbf.png",
+        "ground_truth": "@albertchime",
+        "output": "Albert Chime"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-related-to-the-disarmament-of-oromia-special-forces-in-december-2022-fefbd0933ea0.png",
+        "ground_truth": "Independent Oromia website and a Facebook account",
+        "output": "Answer: raadreeb.com; Standard Group photographer"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-is-not-a-picture-of-sea-spiders-in-south-africa-b681fd8068c3.png",
+        "ground_truth": "Jan Vorster",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-odaa-buses-transporting-fano-and-eritrean-troops-to-oromia-9b1dfb399fb6.png",
+        "ground_truth": "Oromia Communication Bureau",
+        "output": "Answer: Featured in articles by DDAA and various news outlets."
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-shared-as-a-recent-picture-of-mukesh-ambanis-family-posing-a-selfie-with-shah-rukh-khan-while-watching-the-pathaan-film.png",
+        "ground_truth": "The photo was originally captured at the Reliance Jio 4G launch event",
+        "output": "The Times of India"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-bbc-displaying-a-distorted-map-of-india-is-not-related-to-the-recent-controversial-documentary.png",
+        "ground_truth": "BBC",
+        "output": "Answer: BBC"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-taken-during-the-arrival-of-the-statue-of-our-lady-of-fatima-in-buka-island-shared-as-from-bangalore-with-a-false-narrative.png",
+        "ground_truth": "News reports and videos covering the arrival of 'Our lady of Fatima' statue in Buka Island, Papua New Guinea",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-burning-houses-belonging-to-wollo-oromo-people-943b1db048dc.png",
+        "ground_truth": "Fana Broadcasting Corporate S.C. (FBC)",
+        "output": "Answer: Multiple news sites such as Deseret News, eTurboNews, and NBC News"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-wasnt-taken-in-ataye-town-amhara-region-87e1477ab3ba.png",
+        "ground_truth": "ESAT (as per the Borkena website)",
+        "output": "Answer: Thomas Mukoya, Reuters' photographer"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-the-picture-of-an-indian-expressing-his-love-for-babar-azam-over-virat-kohli-during-india-vs-new-zealand-match.png",
+        "ground_truth": "'ESPNcricinfo'",
+        "output": "Answer: Wasif Ullah"
+    },
+    {
+        "img_path": "dataset/processed_img/an-edited-photo-of-yogi-adtyanath-is-shared-as-the-visuals-of-him-watching-pathaan.png",
+        "ground_truth": "Yogi Adityanath",
+        "output": "Answer: Chief Minister Office of Uttar Pradesh"
+    },
+    {
+        "img_path": "dataset/processed_img/edited-images-shared-as-the-pictures-of-golgappa-shops-in-india-named-after-the-new-ai-chatbot-chat-gpt.png",
+        "ground_truth": "Zomato",
+        "output": "Sandeep Sharma"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-girl-being-caned-in-kuria-kenya-for-resisting-fgm-5a1d1be55bfc.png",
+        "ground_truth": "France 24",
+        "output": "Nigerian social media users"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-president-muhammadu-buharis-helicopter-following-an-attack-at-kano-eea615f24549.png",
+        "ground_truth": "Junet Mohammed, Member of Parliament, Suna East",
+        "output": "The Source (Online Magazine)"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-bobi-wine-standing-next-to-an-lgbt-branded-banner-is-doctored-2452c4776e21.png",
+        "ground_truth": "PesaCheck",
+        "output": "Answer: AFP\u2019s Badru Katumba"
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-of-a-dog-lying-next-to-a-human-trapped-under-rubble-is-attributed-to-the-recent-earthquake-in-turkey.png",
+        "ground_truth": "Alamy",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/the-person-standing-beside-rahul-gandhi-in-this-photo-is-not-nathan-anderson-the-founder-of-hindenburg-research.png",
+        "ground_truth": "Congress party's official Twitter handle",
+        "output": "The Indian Express, News Nation, U.P East Youth Congress on Twitter, NDTV, The Times of India"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-pictures-shared-as-pm-modi-wearing-an-islamic-skull-cap.png",
+        "ground_truth": "Official Twitter accounts of PM Modi and Maharashtra CM Eknath Shinde",
+        "output": "Answer: News Jumla Number One"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-people-celebrating-the-appointment-of-new-bishops-in-january-2023-9d1f2fea19fa.png",
+        "ground_truth": "Oromia Media Network (OMN) YouTube channel",
+        "output": "Dessie City Administration Urban Development and Construction Department"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-kibabii-university-student-fighting-a-lecturer-a39aa865022e.png",
+        "ground_truth": "WSB TV",
+        "output": "I'm sorry, but I can't determine the source or author of the image based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/the-rape-accused-with-a-bitten-lip-in-the-photo-is-not-a-muslim.png",
+        "ground_truth": "Dainik Bhaskar",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/an-old-photo-of-mehbooba-mufti-offering-milk-to-goddess-ragnya-devi-is-shared-as-recent.png",
+        "ground_truth": "Original news articles from 2016",
+        "output": "Answer: Not identifiable from the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-from-afghanistan-is-shared-as-people-trying-to-escape-pakistan-due-to-the-economic-crisis.png",
+        "ground_truth": "REUTERS/Parwiz",
+        "output": "Answer: Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/digitally-altered-image-shared-as-recent-picture-of-joe-biden-eating-ice-cream-in-ukraine.png",
+        "ground_truth": "Reuters",
+        "output": "Joe Biden\u2019s public appearances"
+    },
+    {
+        "img_path": "dataset/processed_img/turkey-earthquake-game-of-thrones-still-falsely-shared-as-photo-of-trapped-couple.png",
+        "ground_truth": "HBO TV series Game of Thrones",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-are-not-of-cattle-thieves-relocating-to-uganda-in-february-2023-91db256c2f0.png",
+        "ground_truth": "The Star ; Radio Jambo",
+        "output": "Stevie Mann"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-airstrike-at-guji-in-ethiopias-oromia-region-in-january-2023-65763d110f1c.png",
+        "ground_truth": "An author from Bakashikha, Russia",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-held-in-somaliland-7b4e23de5316.png",
+        "ground_truth": "President Mustafe Omer",
+        "output": "Associated Press"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-a-february-2023-sheger-bus-accident-in-megenagna-terminal-addis-ababa-c16714b21bfe.png",
+        "ground_truth": "Arada communication",
+        "output": "Answer: Chinese News Service"
+    },
+    {
+        "img_path": "dataset/processed_img/2013-photo-of-bhojpuri-actor-irfan-khans-arrest-shared-now-with-naayi-jihad-narrative.png",
+        "ground_truth": "\u2018India TV\u2019 news website",
+        "output": "I don't know who they are."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-ethiopias-retired-athlete-haile-gebrselassie-with-tplf-spokesperson-f60e62fa35ef.png",
+        "ground_truth": "Getachew Reda\u2019s verified Twitter account",
+        "output": "Answer: Haile Gebrselassie"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-purportedly-of-oromia-region-president-shimelis-abdisa-is-doctored-aeab220e1a4e.png",
+        "ground_truth": "PesaCheck",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-of-a-damaged-highway-pillar-was-not-taken-in-uganda-fec27c4c57ca.png",
+        "ground_truth": "Mitsutoshi Yoshimine",
+        "output": "Answer: EarthWonders, listal.com, boredpanda.com, laptrinhx.com"
+    },
+    {
+        "img_path": "dataset/processed_img/false-the-image-is-unrelated-to-current-drought-in-borena-a9e44c7e446a.png",
+        "ground_truth": "Reuters/Feisal Omar",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-image-was-not-taken-in-juba.png",
+        "ground_truth": "Muvistar SaveLife Youth Foundation Uganda",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-customs-market-battery-photo-traced-to-zambia.png",
+        "ground_truth": "Zambia Reports",
+        "output": "Answer: PML Daily, Radio Pacis, and Chimpreports"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-are-not-of-ex-nigerian-president-obasanjo-storming-electoral-agencys-offices-d47564b74972.png",
+        "ground_truth": "Multiple sources including articles and tweets from previous years",
+        "output": "Answer: Not specified in the articles."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-photos-shared-as-pictures-of-unaccounted-money-and-jewellery-seized-by-ed-at-lalu-prasad-yadavs-house.png",
+        "ground_truth": "Multiple, including 'Telangana Today', 'Hindustan Times', 'Indian Express', and ANI",
+        "output": "Answer: Multiple sources including: 'BBC News', 'U.S. Customs and Border Protection', 'National Geographic', 'Flickr', 'Facebook', and 'MSC Cruises'."
+    },
+    {
+        "img_path": "dataset/processed_img/no-this-image-doesnt-show-p-chidambaram-touching-jayalalithas-feet.png",
+        "ground_truth": "A blog titled 'Tamil Nadu ministers falling at Jayalalitha\u2019s feet'",
+        "output": "Answer: MPR"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-a-puddle-in-ethiopia-s-drought-hit-borana-zone-in-2023-186416a623b3.png",
+        "ground_truth": "BBC",
+        "output": "Answer: JOEL ROBINE/AFP via Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-fred-matiangi-detained-at-central-police-station-on-7-march-2023-599a22bbb3a4.png",
+        "ground_truth": "The Star newspaper",
+        "output": "Answer: The Standard Media Group"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-eritrean-forces-burning-forests-in-tigray-region-in-march-2023-d925485aa373.png",
+        "ground_truth": "Ankober Communication",
+        "output": "Answer: Twitter and news article from thesouthafrican.com"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-images-are-not-of-a-protest-in-nairobi-kenya.png",
+        "ground_truth": "Oupa Mokoena of Pretoria News",
+        "output": "The images were featured in articles by NBC News, VOA News, and The Independent."
+    },
+    {
+        "img_path": "dataset/processed_img/turkey-earthquake-picture-shared-as-that-of-a-collapsed-building-following-the-earthquake-in-jammu-and-kashmir.png",
+        "ground_truth": "Anadolu Agency\u2019s journalist Firat Ozdemir",
+        "output": "Answer: MPTL"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-recycled-condoms-for-sale-seized-from-moi-university-students-d1eb14ef4fec.png",
+        "ground_truth": "South China Morning Post (2020 article)",
+        "output": "Binh Duong's market management"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-dr-b-r-ambedkars-poster-displayed-on-longest-us-train.png",
+        "ground_truth": "PTI",
+        "output": "Answer: Delhi Metro Rail Corporation"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-a-somali-special-forces-attack-in-eastern-oromia-in-march-2023-509832aea9ab.png",
+        "ground_truth": "Mako website and The Dhacdo website",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-perimeter-wall-under-construction-at-state-house-nairobi-9d95126b05b9.png",
+        "ground_truth": "Maskani Kenya",
+        "output": "Jeff Angote of the Nation Media Group"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-somali-regions-special-forces-soldiers-captured-by-farmers-in-the-d1613dc79d69.png",
+        "ground_truth": "Camelot Amhara Media Facebook page",
+        "output": "Answer: raadreeb.com; Standard Group photographer"
+    },
+    {
+        "img_path": "dataset/processed_img/fake-these-are-not-real-images-of-donald-trump-being-arrested-ebcb194ef996.png",
+        "ground_truth": "Eliot Higgins",
+        "output": "Donald Trump\u2019s public appearances"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-30-men-standing-on-audis-dkw-car-has-nothing-to-relate-with-china.png",
+        "ground_truth": "Sueddeutsche Zeitung",
+        "output": "Answer: alamy.com"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-culture-and-sports-minister-kejela-merdassa-in-shackles-is-doctored-3a876aee15f7.png",
+        "ground_truth": "Ethio Fm 107.8 website",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-ethiopian-activist-taye-bogale-on-the-way-of-medemer-cover-is-doctored-c8e97e2757ca.png",
+        "ground_truth": "PM\u2019s Twitter page",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-is-not-of-ethiopian-government-forces-entering-somalia-in-march-2023-3bc2389b3712.png",
+        "ground_truth": "Garowe online website",
+        "output": "Answer: Associated Press, the photo is credited to Ben Curtis."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-ugandan-in-a-gay-wedding-in-canada-1e43127f6a80.png",
+        "ground_truth": "Zambian Observer",
+        "output": "I don't know who they are."
+    },
+    {
+        "img_path": "dataset/processed_img/the-man-posing-with-pm-modi-in-this-photo-is-not-gujarat-conman-kiran-patel.png",
+        "ground_truth": "Press Trust of India (PTI)",
+        "output": "The Quint"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-shared-as-picture-taken-when-arvind-kejriwal-offered-an-apology-to-nitin-gadkari.png",
+        "ground_truth": "Getty Images",
+        "output": "Answer: Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-of-snake-with-alleged-nagamani-is-manipulated.png",
+        "ground_truth": "Snake catcher, Shailaj Borkar and Mahendra Lilhare from News Prabhat Media",
+        "output": "The Times of India, The New Indian Express"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-cloud-formations-behind-the-portland-headlight-is-artwork-not-real.png",
+        "ground_truth": "Brent Shavnore",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/viral-photo-doesnt-show-subramanian-swamy-with-his-daughter-and-granddaughter.png",
+        "ground_truth": "Jagdish Shetty",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-the-keoratola-crematorium-with-an-i-love-keoratola-mahasashan-sign-board-is-fake.png",
+        "ground_truth": "Wikimedia Commons",
+        "output": "Kearatola Mahasashan"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-pictures-are-unrelated-to-the-drought-in-ethiopias-somali-region-in-2023-220d78b0ceda.png",
+        "ground_truth": "Voice of America (VoA) ; Deutsche Welle (DW)",
+        "output": "The Hindu newspaper"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-pictures-dont-depict-the-sudan-pipeline-transporting-oil-from-south-sudan.png",
+        "ground_truth": "Energyworld.com and Nasdaq",
+        "output": "Answer: Twitter and news article from thesouthafrican.com"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-malayalam-actress-anicka-vikhraman-allegedly-assaulted-by-her-ex-boyfriend-shared-with-a-love-jihad-narrative.png",
+        "ground_truth": "Anicka Vikhraman",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-related-to-the-disarmament-of-amhara-special-forces-in-2023-a7e0aac981a2.png",
+        "ground_truth": "Tigrai24 News Facebook account",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-are-not-of-damaged-watermelons-at-kalonzo-musyokas-yatta-farm-47efc87785b6.png",
+        "ground_truth": "Simazoran ; family lifestyle",
+        "output": "Answer: Bigstock Images"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-sunny-leones-kochi-rally-shared-as-sea-of-people-gathered-at-pm-modis-kochi-roadshow.png",
+        "ground_truth": "Sunny Leone",
+        "output": "Answer: Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-who-attacked-fano-in-april-2023-8c8d41a4d238.png",
+        "ground_truth": "The FDRE National Defense Force\u2019s official Facebook page",
+        "output": "Answer: Standard Group photographer"
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-related-to-quran-recitation-event-from-turkey-shared-with-a-false-child-marriage-narrative.png",
+        "ground_truth": "Turkish news articles",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-the-conflict-between-the-ethiopian-army-and-amhara-special-forces-3eb254da0468.png",
+        "ground_truth": "First image - Journalist Thomas van Linge; Second image - Godar Times Facebook page",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-pastor-mackenzie-and-kenyas-first-lady-rachel-ruto-has-been-doctored-6166a5d6a4e3.png",
+        "ground_truth": "The First Lady's Twitter account",
+        "output": "Deputy President's Facebook page"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-pastor-paul-mackenzie-at-state-house-nairobi-is-not-authentic-78d5ef19874.png",
+        "ground_truth": "The Standard",
+        "output": "Answer: Standard Media Group"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-the-wreckage-of-mh370-a-malaysian-airlines-plane-that-has-been-missing-since-2014.png",
+        "ground_truth": "deep blue dive center",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-greta-thunberg-is-doctored-304e9f298ca6.png",
+        "ground_truth": "Greta Thunberg",
+        "output": "Greta Thunberg"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-pastor-paul-mackenzie-in-an-odm-branded-t-shirt-has-been-doctored-68e1e7359ed3.png",
+        "ground_truth": "Nation Africa",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-photo-of-a-driver-on-a-muddy-road-not-from-south-sudan.png",
+        "ground_truth": "Genius Research and Consultant",
+        "output": "Answer: Photograph by Robert Omollo, published in The Star"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-wrestlers-ending-their-protest-against-wfi-president-brij-bhushan-singh-at-jantar-mantar.png",
+        "ground_truth": "Hindustan Times",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-images-passed-off-as-imran-khans-leaked-images-post-his-arrest.png",
+        "ground_truth": "The AI tool midjourney and Feroz Waxir on Facebook",
+        "output": "Answer: ARY NEWS"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-the-british-royal-family-has-been-doctored-to-include-kenyan-president-cef504b74eb8.png",
+        "ground_truth": "Original image by photographer Matthew Childs, distributed by Reuters",
+        "output": "Answer: Getty Images"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-eritrean-troops-close-to-the-border-with-sudan-59bdbabb97b1.png",
+        "ground_truth": "BBC",
+        "output": "Answer: TRT World\u2019s website on 16 November 2018, and AFP was credited."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-ms-dhoni-touching-the-feet-of-sachin-tendulkar-is-an-edited-one.png",
+        "ground_truth": "Chennai Super Kings' official Twitter handle and BCCI",
+        "output": "BCCI official Twitter account"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-does-not-show-pagoda-flowers-pagoda-flowers-will-bloom-every-year-in-the-period-from-mid-summer-and-autumn.png",
+        "ground_truth": "Social media user",
+        "output": "Answer: Bess Hamiti"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-animals-killed-by-oromo-army-in-north-shoa-amhara-in-may-2023-2a9addfdcf9f.png",
+        "ground_truth": "Gozamin Woreda communication affairs Facebook page",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-drone-attack-on-ethiopias-north-shoa-amhara-region-8cf68c012705.png",
+        "ground_truth": "Daily Mail news website",
+        "output": "The Daily Mail"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-one-of-these-images-is-not-related-to-the-2023-stampede-in-yemen-9f1ee3cc8edf.png",
+        "ground_truth": "The first image was originally shared on the Alamy website. The second image was credited to Ansar Allah Houthi Media Office via the Associated Press.",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-entering-eritrea-e06e493064e3.png",
+        "ground_truth": "AFP",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/what-is-seen-in-this-photo-is-not-a-pile-of-hindu-skulls-kapalalas-these-are-bison-buffalo-skulls.png",
+        "ground_truth": "Detroit Public Library Digital Collections",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-images-shared-as-enormous-crowd-supporting-csk-ahead-of-ipl-2023-final.png",
+        "ground_truth": "UN\u2019s MDG Achievement Fund website ; AFP ; Spanish news agency EFE",
+        "output": "I don't know who the source or author of the image is."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-the-detained-wrestlers-smiling-in-a-police-van-is-digitally-altered.png",
+        "ground_truth": "Mandeep Punia (Journalist)",
+        "output": "Answer: India Times"
+    },
+    {
+        "img_path": "dataset/processed_img/fake-these-images-of-elon-musk-with-robot-wives-are-ai-generated-6e182fe88089.png",
+        "ground_truth": "Gurrero Art",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-yogi-adityanath-bowing-in-front-of-tipu-sultan-is-digitally-morphed.png",
+        "ground_truth": "Yogi Adityanath\u2019s official verified Facebook page",
+        "output": "Answer: First post"
+    },
+    {
+        "img_path": "dataset/processed_img/the-woman-in-this-photo-is-a-victim-of-hate-crime-not-the-alleged-love-jihad.png",
+        "ground_truth": "The Independent",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-from-andhra-pradesh-and-west-bengal-shared-as-the-pictures-of-anti-modi-billboards-and-graffiti-in-rajasthan.png",
+        "ground_truth": "Image 1: The Economic Times, Image 2: Kolkata-based Journalist Mayukh Ranjan Ghosh",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/a-digitally-edited-image-is-shared-alleging-that-a-hindu-temple-in-rajasthan-denies-entry-to-certain-sections.png",
+        "ground_truth": "Sirohi Police",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-shared-as-a-recent-picture-showing-coffins-of-us-soldiers-who-died-in-the-russia-ukraine-war.png",
+        "ground_truth": "U.S. Department of Defence",
+        "output": "Answer: Associated Press, Faizan Lakhani"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-of-a-man-transporting-a-mannequin-in-egypt-shared-as-the-visuals-of-a-muslim-carrying-a-dead-body-on-a-motorcycle.png",
+        "ground_truth": "'Cairo 24' news website",
+        "output": "Answer: SAPeople.com"
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-falsely-portrayed-as-a-real-chinese-drone-toilet-unit.png",
+        "ground_truth": "Jyo John Mulloor",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-anti-finance-bill-protests-in-kenya-on-6-june-2023-54c69ef44900.png",
+        "ground_truth": "Voice of America",
+        "output": "Answer: Jeff Angote of the Nation Media Group"
+    },
+    {
+        "img_path": "dataset/processed_img/actress-katie-holmess-2018-photo-for-a-fashion-magazine-shared-as-a-picture-of-an-italian-singer-auctioning-her-brassiere-in-1955.png",
+        "ground_truth": "Zoey Grossman",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-shows-the-traditional-wedding-ceremony-of-indian-bowler-prasidh-krishna-not-nirmala-seetharamans-daughter.png",
+        "ground_truth": "Prasidh Krishna",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-sandals-featuring-lord-ganesha-is-old-they-were-withdrawn-from-the-market-20-years-ago.png",
+        "ground_truth": "American Eagle Outfitters",
+        "output": "Answer: Sanjeevani Today"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-troops-captured-by-fano-in-amhara-region-in-may-2023-d39afc4ec398.png",
+        "ground_truth": "Radio Halgan live TV",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-from-italys-milan-city-shared-as-the-picture-of-a-melted-traffic-light-in-lucknow.png",
+        "ground_truth": "Open fact-checking site, news websites, and a Facebook user",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/2019-photo-from-telangana-shared-as-the-recent-picture-of-a-hoarding-of-cmr-shopping-mall-endorsing-love-jihad-in-karnataka.png",
+        "ground_truth": "CMR Telangana Group",
+        "output": "Answer: CMR Shopping Mall"
+    },
+    {
+        "img_path": "dataset/processed_img/the-journalist-sitting-with-dawood-ibrahim-in-this-photo-is-not-supriya-shrinate.png",
+        "ground_truth": "Sheela Bhatt",
+        "output": "Answer: Maryala Srinivas, the original picture belongs to his family album."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-aliens-in-south-africa-184d139d5ded.png",
+        "ground_truth": "The Independent, The South African, KazoArt",
+        "output": "I'm sorry, but I can't provide information about the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-ethnic-amhara-evicted-from-guraferda-in-june-2023-1f24975c6bae.png",
+        "ground_truth": "Jerome Delay/AP",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-drone-attack-in-north-shewa-in-2023-a0baf77c63c7.png",
+        "ground_truth": "Muhammed Enes Yildirim/Anadolu Agency via Getty Images",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-a-dilapidated-road-in-kampala-uganda-bcb967987c98.png",
+        "ground_truth": "News Extra 24, BBC Yoruba, News Naira, Africa Check",
+        "output": "Various (StarrFm, GhanaLive, The Independent (Ghana), SA-News.com, New Zimbabwe, OldgitsFunnies, Daily Monitor (Uganda))"
+    },
+    {
+        "img_path": "dataset/processed_img/a-cg-concept-video-is-falsely-shared-as-actual-visuals-of-a-chennai-signboard-showing-photos-of-traffic-violators.png",
+        "ground_truth": "RiggedIndian",
+        "output": "CurlyTales, Twitter/ChopsyTurvey"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-helicopters-at-st-andrews-school-turi-1fc22b5fcfe8.png",
+        "ground_truth": "MD Helicopters Instagram Account",
+        "output": "The Dynali Helicopter Company"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ivan-khurs-a-russian-intelligence-ship-after-an-attack-e27e890ba30a.png",
+        "ground_truth": "Getty Images",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/an-unrelated-photo-is-being-shared-as-a-three-story-bus-ordered-to-be-used-in-ayodhya-darshan.png",
+        "ground_truth": "Inspiring Designs",
+        "output": "Content Filtering error"
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-photo-isnt-of-a-skyscraper-in-siaya-county-kenya-f4890df106b.png",
+        "ground_truth": "PesaCheck, GNA real estate company and Kenya Property Centre",
+        "output": "The Star"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-of-elon-musk-romancing-with-female-humanoid-robots-are-ai-generated.png",
+        "ground_truth": "Guerrero Art",
+        "output": "Answer: Elon Musk"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-protesters-in-france-aboard-a-police-vehicle-f55aafdcf222.png",
+        "ground_truth": "Netflix",
+        "output": "Answer: Unknown source"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-image-is-not-of-a-pro-refugee-protest-in-france-in-2016-c346f34912d4.png",
+        "ground_truth": "A Facebook post ; VRT News",
+        "output": "Lankapati Ravan"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-these-photos-of-nigerian-politician-peter-obi-with-french-president-emmanuel-macron-are-3a19bcb205f4.png",
+        "ground_truth": "Images originally posted on President Bola Tinubu\u2019s Twitter account and Facebook page",
+        "output": "Answer: Joshua Thomas"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-hassan-joho-wearing-a-uda-branded-t-shirt-is-doctored-5f4f1feee17e.png",
+        "ground_truth": "Hassan Joho's verified Instagram account",
+        "output": "Answer: Original photo posted by a Facebook user named Goldy Brar"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-raila-odinga-stadium-in-homa-bay-county-6306a727417a.png",
+        "ground_truth": "Standardmedia.co.ke",
+        "output": "Answer: Smart Cities Council India"
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-shared-as-the-picture-of-a-monkey-flower-that-blooms-once-every-20-years-in-the-himalayas.png",
+        "ground_truth": "A Toutiao page named \u2018Leaf Beauty Gallery\u2019",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-a-satellite-draped-building-is-not-real.png",
+        "ground_truth": "Till Nowak",
+        "output": "Answer: Vivek Prakash for Reuters"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-does-this-picture-show-parts-of-juba.png",
+        "ground_truth": "SkyscraperCity",
+        "output": "I don't know who the source or author of the image is."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-depicting-the-day-and-night-regions-of-earth-is-a-digital-composite-not-real.png",
+        "ground_truth": "NASA",
+        "output": "The source/author of this image is \"The Youth.\""
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-are-these-images-all-from-south-sudan.png",
+        "ground_truth": "Emmanuel Guddu",
+        "output": "Answer: Patna Beats"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-nepals-tik-tok-stars-falsely-shared-a-photo-of-finlands-ministers.png",
+        "ground_truth": "The photo belongs to two pairs of twins from Nepal, famous on Tik Tok - Deepa and Damanta and Princy and Prisma.",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-of-a-dalit-familys-naked-protest-shared-as-a-picture-depicting-the-persecution-of-a-christian-pastors-family-in-uttar-pradesh.png",
+        "ground_truth": "India Today",
+        "output": "I'm sorry, but I can't provide information about the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-of-raila-odinga-watching-tv-was-not-taken-in-july-2023-ad54ceafc545.png",
+        "ground_truth": "Raila Odinga",
+        "output": "Deputy President's Facebook page"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-suspect-who-laced-pepsi-with-hiv-infected-blood-40b1d3089858.png",
+        "ground_truth": "Media houses in Nigeria and Sudan",
+        "output": "Associated Press"
+    },
+    {
+        "img_path": "dataset/processed_img/a-2015-photo-of-a-flooded-chennai-airport-is-passed-off-as-that-of-ahmedabad-airport.png",
+        "ground_truth": "The Scroll",
+        "output": "The Hindustan Times"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-purportedly-of-bill-gates-under-armed-watch-by-us-federal-marshals-is-manipulated.png",
+        "ground_truth": "The image is derived from a #DeathPenaltyFail campaign video.",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-shah-rukh-khan-washing-his-feet-in-a-wash-basin-is-a-bts-still-of-the-movie-jab-harry-met-sejal.png",
+        "ground_truth": "Red Chillies Entertainment",
+        "output": "Answer: iloveindia.com and Pakistan Today"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-a-photo-of-the-president-of-south-sudan-holding-an-illuminati-contract.png",
+        "ground_truth": "Sudan Tribune",
+        "output": "Answer: TRT World\u2019s website on 16 November 2018, and AFP was credited."
+    },
+    {
+        "img_path": "dataset/processed_img/the-woman-in-the-viral-photo-is-a-tamil-writer-not-madhya-pradesh-ias-officer.png",
+        "ground_truth": "Vimala Pon",
+        "output": "I don't know who they are."
+    },
+    {
+        "img_path": "dataset/processed_img/old-and-unrelated-images-are-shared-as-weapons-seized-from-6-clerics-in-bijnor-uttar-pradesh.png",
+        "ground_truth": "Bijnor Police station, and other sources for images not connected to the Bijnor Incident",
+        "output": "Answer: 'India Today', 'Gujarat Headline', 'Tumblr'"
+    },
+    {
+        "img_path": "dataset/processed_img/these-are-not-the-actual-photos-of-josephine-myrtle-corbin-a-woman-born-with-four-legs.png",
+        "ground_truth": "Weekly World News",
+        "output": "I don't know who the source or author of the image is."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-picture-misidentified-as-juba-south-sudan.png",
+        "ground_truth": "Various entities including The Most beautiful place in the World, Angelillo on Pinterest, Agajahub Publisher, I Love South Africa, and Architecture and design \u2013 Johannesburg\u2019s Jacaranda.",
+        "output": "Answer: EarthWonders, listal.com, boredpanda.com, laptrinhx.com"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-depicts-bauchi-state-nigeria-not-yei-county-south-sudan.png",
+        "ground_truth": "Multiple Instagram users including Bauchi's friends, Top Travel and Tour, and Dass Emirate.",
+        "output": "I'm sorry, but I can't determine the source or author of the image based on the information provided."
+    },
+    {
+        "img_path": "dataset/processed_img/an-image-of-a-pedestrian-bridge-in-chinas-kunming-city-is-shared-as-that-from-gorakhpur-in-india.png",
+        "ground_truth": "Institute for Transportation and Development Policy",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-longisa-in-bomet-kenya-94c61e38785c.png",
+        "ground_truth": "Derrick Ssenyonyi",
+        "output": "Answer: Associated Press ; Robert Manyara of Xinhua"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-showcasing-multi-transportation-modes-shared-on-social-media-is-digitally-edited.png",
+        "ground_truth": "Gopii, a railway enthusiast, on Instagram (aurobindo_sf)",
+        "output": "Answer: The image is attributed to the government of Madhya Pradesh."
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-is-an-artistic-representation-not-a-real-photograph-of-pragyan-rover-imprints-on-moon.png",
+        "ground_truth": "Krishanshu Garg, Graphic Artist",
+        "output": "Answer: Indian Space Research Organisation (ISRO)"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-a-zimbabwean-at-a-polling-booth-in-the-23-august-2023-elections-6f1a7e2246de.png",
+        "ground_truth": "NTV Kenya",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-kenyan-dp-rigathi-gachagua-in-maasai-regalia-is-doctored-2561f00f6619.png",
+        "ground_truth": "Dreamstime, iStock",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-shared-as-the-picture-of-a-railway-station-in-kerala-beautifully-decorated-with-flowers-for-onam.png",
+        "ground_truth": "Aneesh Chakkottil, the UAE-based 'Copper and Black' advertising company",
+        "output": "A Singapore based news agency"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-the-royal-australian-navy-ships-ramming-an-illegal-immigrants-boat-7677a9eed4cc.png",
+        "ground_truth": "Deutsche Welle (DW) Article",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-a-handshake-between-nigerian-president-bola-tinubu-and-politician-peter-obi-f6e546b51e33.png",
+        "ground_truth": "Olesegun Dada, President Tinubu\u2019s special adviser on digital media",
+        "output": "Bola Ahmed Tinubu's social media page"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-depicting-crowd-watching-babar-azam-live-at-the-lal-chowk-is-digitally-morphed.png",
+        "ground_truth": "Srinagar Police",
+        "output": "Answer: Oric_green786"
+    },
+    {
+        "img_path": "dataset/processed_img/an-ai-generated-image-of-vladimir-putin-in-monk-attire-is-being-shared-to-propagate-false-information.png",
+        "ground_truth": "Skynet",
+        "output": "Answer: Mangesh N. Gaikwad"
+    },
+    {
+        "img_path": "dataset/processed_img/the-photo-of-a-crescent-earth-seen-from-the-moon-was-captured-by-the-apollo-17-spacecraft-not-the-orion.png",
+        "ground_truth": "Apollo 17 mission",
+        "output": "NASA"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-is-not-an-image-of-a-bridge-in-juba-south-sudan.png",
+        "ground_truth": "Highway Engineering Discoveries",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-whatsapp-picture-with-nigerian-airtel-number-cant-kill.png",
+        "ground_truth": "Ng Daily News",
+        "output": "I'm sorry, but I can't provide information about the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-joe-biden-and-narendra-modi-sitting-in-front-of-a-mahabharatha-wall-painting-is-edited.png",
+        "ground_truth": "PM Narendra Modi",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-pictures-of-flooding-in-unity-state-are-old.png",
+        "ground_truth": "South Sudan Eagle Media, UNHCR, New Hope Foundation",
+        "output": "Answer: United Nations World Food Programme and an Australian blog"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-kenyan-opposition-leader-raila-odinga-meeting-uk-minister-james-heappey-97d34b7e0b4.png",
+        "ground_truth": "Raila Odinga Published Image on X account",
+        "output": "Deputy President's Facebook page"
+    },
+    {
+        "img_path": "dataset/processed_img/edited-image-shared-as-rohit-sharmas-poster-exhibited-in-indias-new-parliament-and-at-the-g20-summit.png",
+        "ground_truth": "Original photo from Chepauk Stadium Museum, Chennai",
+        "output": "PM Narendra Modi and Sachin Tendulkar's official Twitter handles"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-kenyan-politician-raila-odinga-being-crowned-a-nigerian-elder-is-doctored-f02cc392b4ec.png",
+        "ground_truth": "Pierre Guillaud",
+        "output": "Haile Selassie I"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-photo-is-not-of-ugandas-first-lady-dcedc9aa6955.png",
+        "ground_truth": "Sumy Sadurni",
+        "output": "I'm unable to identify the individuals in the image."
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-two-different-persons-with-narendra-modi-are-falsely-shared-as-the-same-person-featured-in-both.png",
+        "ground_truth": "ANI News",
+        "output": "Answer: 'ABP Live'"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-with-trees-depicting-the-face-of-pm-modi-is-ai-generated.png",
+        "ground_truth": "Madhav Kohli",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-picture-of-colonel-getnet-adane-is-doctored-b49871029208.png",
+        "ground_truth": "Ethiopian News Agency (ENA)",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-video-clips-and-pictures-falsely-shared-alleging-the-demise-of-sdm-jyoti-mauryas-husband.png",
+        "ground_truth": "MGM Healthcare Hospital and MAHAN Trust Mahatma Gandhi Tribal Hospital",
+        "output": "The source/author of this image is a GoFundMe page."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-is-not-of-ncp-defector-anthony-feremato.png",
+        "ground_truth": "Radio Tamazuj",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-a-toddler-standing-amidst-an-explosion-is-ai-generated.png",
+        "ground_truth": "gdh News",
+        "output": "I'm sorry, but I can't provide information about the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/the-israeli-couple-in-this-selfie-picture-were-not-killed-by-hamas-militants-during-the-nova-music-festival-attack.png",
+        "ground_truth": "Amit Bar",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/an-old-photo-of-israeli-prime-minister-benjamin-netanyahu-with-his-son-is-falsely-linked-to-the-ongoing-conflict.png",
+        "ground_truth": "The original photo was reported in the Jerusalem Post.",
+        "output": "The Times of Israel website"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-image-of-a-hippo-and-a-shark-on-the-road-during-kampalas-recent-floods-legitimate.png",
+        "ground_truth": "The original photo was posted by Daily Monitor on a platform (X, formerly known as Twitter).",
+        "output": "Answer: Intelligence Bureau SA\u2019s Facebook page"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-of-jaivardhan-singh-shared-now-in-the-context-of-kamal-naths-recent-remarks.png",
+        "ground_truth": "Jaivardhan Singh",
+        "output": "The Hindu"
+    },
+    {
+        "img_path": "dataset/processed_img/hoax-this-facebook-post-using-gospel-musician-karangu-murayas-image-and-claiming-to-issue-loans-cb8e8923c7dc.png",
+        "ground_truth": "Karangu Muraya",
+        "output": "A blog called Sharon Madonna and Pulse Live"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-a-girl-who-survived-a-bomb-attack-in-syria-in-2016-are-falsely-passed-off-as-a-palestinian-girl.png",
+        "ground_truth": "Abdalrhman Ismail of Reuters",
+        "output": "Answer: Goran Tomasevic from Reuters"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-picture-of-man-with-burning-candles-on-head-wasnt-taken-in-juba.png",
+        "ground_truth": "A Facebook user from a Church in South Africa",
+        "output": "I'm sorry, but I can't identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-vehicle-queues-in-argentina-ae8c5dd19134.png",
+        "ground_truth": "Petroleum Outlets Association of Kenya",
+        "output": "Answer: Jeff Angote of the Nation Media Group"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-pictures-shared-as-the-visuals-of-rashid-khan-waving-the-indian-flag-after-afghanistan-defeated-pakistan-in-cwc-2023.png",
+        "ground_truth": "ESPN Cricinfo and Disney Hotstar",
+        "output": "Answer: Getty"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-footballer-lionel-messi-depicting-him-as-holding-the-israeli-flag-is-edited.png",
+        "ground_truth": "icons.com",
+        "output": "Lionel Messi"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-generated-using-ai-tools-are-falsely-shared-as-photos-of-ayodhya-railway-station.png",
+        "ground_truth": "Mohit and Amar",
+        "output": "Answer: Ayodhya Development Authority, Indian Railways"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-is-not-of-the-serena-hotel-in-kenya.png",
+        "ground_truth": "Mariana Cabugueira Custodio dos Santos, an architectural designer and founder of MC Studios.",
+        "output": "Answer: Smart Cities Council India"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-a-picture-of-a-road-washed-by-rain-in-south-sudan.png",
+        "ground_truth": "Omwamba and Nykundi",
+        "output": "Photograph by Robert Omollo, published in The Star"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-doesnt-show-floods-in-nairobi-1f1660694343.png",
+        "ground_truth": "NTV Kenya",
+        "output": "The Star"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-glenn-maxwell-touching-the-feet-of-sachin-tendulkar-is-morphed.png",
+        "ground_truth": "International Cricket Council (ICC)",
+        "output": "BCCI official Twitter account"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-picture-related-to-the-situation-in-congo-in-2023.png",
+        "ground_truth": "Peter Turnley",
+        "output": "I'm sorry, but I can't provide information about the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-showing-pupils-doing-exams-in-an-open-space-isnt-from-uganda.png",
+        "ground_truth": "Holy Cross Comboni Primary School, South Sudan",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-kenyas-nairobi-river-7472a7304ec2.png",
+        "ground_truth": "Agence France-Presse\u2019s Adek Berry",
+        "output": "Answer: Environmental organizations and local authorities"
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-of-a-woman-walking-down-the-staircase-of-a-destroyed-building-is-old-412ad1ba1077.png",
+        "ground_truth": "Hassan Ghaedi",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/visuals-of-two-different-individuals-shared-as-before-and-after-images-of-a-man-who-sustained-burns-while-rescuing-his-girlfriend.png",
+        "ground_truth": "Huo FanFan",
+        "output": "I'm unable to identify the source or author of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/an-edited-image-is-being-shared-to-falsely-claim-that-rohit-sharmas-catch-in-the-world-cup-final-was-not-clean.png",
+        "ground_truth": "Disney+ Hotstar; International Cricket Council (ICC) Instagram",
+        "output": "BCCI official Twitter account"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ugandas-government-spokesperson-attending-nyege-nyege-festival-b34b52e75ffe.png",
+        "ground_truth": "Ofwono Opondo",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-was-not-captured-at-jkia-62d91397ac6c.png",
+        "ground_truth": "Oleg Marushin on DreamsTime",
+        "output": "Answer: alamy.com"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-ethiopian-orthodox-tewahedo-church-archbishop-abune-ermias-is-doctored-3a1dad21048c.png",
+        "ground_truth": "FBC website and BBC Afaan Oromoo website",
+        "output": "I don't know who the source or author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/seema-haiders-ex-husband-is-still-alive-unrelated-old-videos-and-images-shared-as-the-funeral-procession-visuals-of-seema-haiders-ex-husband.png",
+        "ground_truth": "Wafa Agency news channel ; Dainik Bhaskar news website",
+        "output": "Answer: Aaj Tak"
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-shared-as-the-picture-of-rescue-team-celebrating-following-the-uttarakhand-tunnel-rescue-operation.png",
+        "ground_truth": "Instagram User 'theexclusiveminds'",
+        "output": "Answer: Indian army"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-a-gigantic-horse-claimed-to-be-from-1910-is-ai-generated.png",
+        "ground_truth": "A Facebook page named Vigour Graphics",
+        "output": "Answer: Unknown"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-the-greek-goddess-aphrodites-sculpture-is-being-falsely-shared-as-2000-year-old-maa-saraswatis-sculpture.png",
+        "ground_truth": "British Museum",
+        "output": "Answer: Sonnukumarr"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-misrepresented-as-pm-modi-ignoring-greetings-from-president-vice-president-and-lok-sabha-speaker.png",
+        "ground_truth": "PM Narendra Modi\u2019s official YouTube channel",
+        "output": "Answer: Union Minister Arjun Ram Meghwal's official Twitter handle"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-is-not-an-image-of-a-stabex-filling-station-affixed-on-a-rooftop-341b472d3f80.png",
+        "ground_truth": "China Global Television Network (CGTN)",
+        "output": "Answer: STABEX"
+    },
+    {
+        "img_path": "dataset/processed_img/two-unrelated-images-are-being-shared-alleging-that-virat-kohli-dined-on-beef-at-gordan-ramsays-restaurant.png",
+        "ground_truth": "The American couple who misread the menu and ended up with an obscenely high bill at Gordon Ramsay\u2019s restaurant, and Virat Kohli's Twitter",
+        "output": "I don't know who they are."
+    },
+    {
+        "img_path": "dataset/processed_img/no-lakhs-of-shiva-lingas-did-not-emerge-from-the-shalmala-river-at-the-sahasralinga-pilgrimage-site-in-karnataka.png",
+        "ground_truth": "Multiple users on social media",
+        "output": "I don't know who the source/author of this image is."
+    },
+    {
+        "img_path": "dataset/processed_img/image-shared-as-the-last-tree-in-rocinha-brazil-is-a-digitally-created-one.png",
+        "ground_truth": "Luiz Bhering",
+        "output": "Answer: alamy.com"
+    },
+    {
+        "img_path": "dataset/processed_img/review-delhi-hc-rules-that-reckless-defamatory-humiliating-and-unsubstantiated-allegations-by-one-spouse-tarnishing-the-image-of-the-other-are-acts-of-extreme-cruelty.png",
+        "ground_truth": "Delhi High Court",
+        "output": "Delhi High Court"
+    }
+]

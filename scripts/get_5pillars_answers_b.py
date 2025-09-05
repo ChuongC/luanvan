@@ -1,0 +1,116 @@
+
+import argparse
+import openai
+import os
+import sys 
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
+from baseline.answer_generation_sample import * 
+from baseline.generation_utils import * 
+from baseline.llm_prompting_sample import *
+
+
+if __name__=='__main__':
+    parser = argparse.ArgumentParser(description='Generate 5 pillars answers with LLMs.')
+    parser.add_argument('--openai_api_key', type=str, default='',
+                        help='Your OpenAI API key.')
+    parser.add_argument('--map_manipulated_original', type=str, default='dataset/map_manipulated_original.json',
+                        help='Path to the file that maps manipulated images to their identified original version.')
+    parser.add_argument('--results_file', type=str, default='output/results.json',
+                        help='Path to store the predicted answers.')
+    parser.add_argument('--task', type=str, default='source',
+                        help='The task to perform. One of [source, date, location, motivation]')
+    parser.add_argument('--modality', type=str, default='vision',
+                        help='Which input modality to use. One of [vision, evidence, multimodal]')
+    parser.add_argument('--n_shots', type=int, default=0,
+                        help='How many demonstrations to include.')
+    parser.add_argument('--model', type=str, default='llava',
+                        help='Which LLM to use for generating answers.')
+    parser.add_argument('--max_tokens', type=int, default=200,
+                        help='The maximum number of tokens to generate as output.')
+    parser.add_argument('--temperature', type=float, default=0.2,
+                        help='The temperature of the model. Lower values make the output more deterministic.')
+    parser.add_argument('--sleep', type=int, default=5,
+                        help='The waiting time between two answer generation.')
+
+    args = parser.parse_args()
+
+    # --- Khởi tạo client dùng OpenAI API key ---
+    if args.model.lower() in ['gpt4', 'gpt-4', 'gpt-4o-mini']:
+        openai.api_key = args.openai_api_key
+        client = openai
+    else:
+        client = None
+
+    if 'output' not in os.listdir():
+        os.mkdir('output/')
+    map_manipulated = load_json(args.map_manipulated_original)
+    
+    #Prepare data
+    train = load_json('dataset/train.json')
+    test = load_json('dataset/test.json')
+    task_test = [t for t in test if t[args.task]!='not enough information']
+    image_paths = [t['image_path'] for t in task_test]
+    if args.task=='date':
+        ground_truth = [t['date_numeric_label'] for t in task_test]
+    else:
+        ground_truth = [t[args.task] for t in task_test]
+
+    #Load embeddings and evidence
+    clip_evidence_embeddings = np.load('dataset/embeddings/evidence_embeddings.npy')
+    image_embeddings = np.load('dataset/embeddings/image_embeddings.npy')
+    image_embeddings_map = load_json('dataset/embeddings/image_embeddings_map.json')
+    evidence = load_json('dataset/retrieval_results/evidence.json')
+
+    #Select evidence and demonstrations
+    evidence_idx = []
+    if args.modality in ['evidence','multimodal']:
+        for i in range(len(image_paths)):
+            evidence_idx.append(get_topk_evidence(image_paths[i], evidence, image_embeddings, clip_evidence_embeddings, image_embeddings_map))
+
+    #Select demonstrations
+    images_with_evidence = [ev['image_path'] for ev in evidence]
+    demonstration_candidates = [t for t in train if t['image_path'] in images_with_evidence]
+    demonstrations = []
+    for i in range(len(image_paths)):
+        if args.n_shots > 0:
+            demonstrations_idx = get_topk_demonstrations(
+                image_paths[i],
+                args.task,
+                demonstration_candidates,
+                image_embeddings,
+                image_embeddings_map,
+                args.n_shots
+            )
+            instance_demonstrations = []
+            for idx in demonstrations_idx:
+                demo_image = demonstration_candidates[idx]['image_path']
+                demo_answer = demonstration_candidates[idx][args.task]
+                demo_evidence_idx = get_topk_evidence(demo_image, evidence, image_embeddings, clip_evidence_embeddings, image_embeddings_map)
+                evidence_image_subset = [ev for ev in evidence if ev['image_path']==demo_image]
+                #demo_evidence = [evidence_image_subset[idx] for idx in demo_evidence_idx]
+                demo_evidence = [evidence_image_subset[idx] for idx in demo_evidence_idx if idx < len(evidence_image_subset)]
+                if len(demo_evidence_idx) > len(evidence_image_subset):
+                    print(f"[WARNING] demo_evidence_idx ({demo_evidence_idx}) > evidence_image_subset ({len(evidence_image_subset)}) for {demo_image}")
+
+                instance_demonstrations.append((demo_image, demo_answer, demo_evidence))
+            demonstrations.append(instance_demonstrations)
+        else:
+            demonstrations.append([])
+
+    #Run the main loop
+    run_model(
+        image_paths, 
+        args.task, 
+        ground_truth, 
+        args.results_file,
+        map_manipulated, 
+        args.modality, 
+        args.model, 
+        evidence, 
+        evidence_idx, 
+        demonstrations, 
+        client,
+        args.max_tokens, 
+        args.temperature, 
+        args.sleep
+    )

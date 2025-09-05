@@ -1,0 +1,1627 @@
+[
+    {
+        "img_path": "dataset/processed_img/false-these-images-dont-show-tplf-tanks-destroyed-by-ethiopian-air-force-in-september-2022-e9c607643b91.png",
+        "ground_truth": "The first image was taken during an international civilian airspace requirements event, and the second image was taken in Ukraine",
+        "output": "Answer: Kandahar Airfield"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-state-house-kenya-containing-a-yellow-cross-is-doctored-70be22bd433b.png",
+        "ground_truth": "State House, Nairobi, Kenya",
+        "output": "Answer: State House in Uganda"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-oromo-artists-in-military-uniform-is-doctored-4e1eacfb3473.png",
+        "ground_truth": "Mekelle, the capital of the Tigray region",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-showing-a-uda-branded-wheelbarrow-hoisted-at-state-house-nairobi-is-satirical-7850fcb262ee.png",
+        "ground_truth": "State House, Nairobi, Kenya",
+        "output": "Answer: State House, Nairobi"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-isnt-an-image-of-tplf-troops-surrendering-to-afar-popular-forces-abbfb14f6c0.png",
+        "ground_truth": "Eritrean-Ethiopian border",
+        "output": "Eritrea"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-photos-allegedly-of-a-bride-running-out-of-a-church-are-not-taken-in-juba.png",
+        "ground_truth": "Eket Local Government Area, Akwa Ibom State, Nigeria",
+        "output": "Answer: A rural area in Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-unrelated-to-war-in-northern-ethiopia-7bdbc318bfa.png",
+        "ground_truth": "Hurso Training Center near Dire Dawa, Ethiopia",
+        "output": "Answer: Kismayu town in Somalia and Kayunga town in Uganda"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-arent-images-of-the-ethiopian-military-destroying-an-operation-led-by-a-sudanese-344045447781.png",
+        "ground_truth": "Thailand (1st and 3rd images) and Northern Ethiopia (2nd image)",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-ex-kenyan-president-uhuru-kenyatta-attending-queen-elizabeths-fc158694bfc7.png",
+        "ground_truth": "London, United Kingdom",
+        "output": "Buckingham Palace"
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-doesnt-show-a-sleeping-parlour-used-by-african-presidents-in-london-during-457f2b2a8774.png",
+        "ground_truth": "Nairobi, Kenya",
+        "output": "Dormitory in a hospital or care facility."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-arent-of-presidents-nana-akufo-addo-and-emmerson-mnangagwa-driving-coaches-463ef98c535e.png",
+        "ground_truth": "Burma Camp, headquarters of the Ghana Armed Forces ; Belvedere, Harare",
+        "output": "Answer: Accra, Ghana"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-a-drone-attack-on-a-world-food-program-truck-in-tigray-81737f42ce16.png",
+        "ground_truth": "Creech Air Force Base in Indian Springs, Nevada",
+        "output": "Answer: Kandahar Airfield"
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-does-not-show-metro-shuttle-matatus-in-london-3ee121820a1c.png",
+        "ground_truth": "London",
+        "output": "Answer: Buckingham Palace, London"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-photo-showing-an-incident-involving-south-sudanese-in-kenya-no.png",
+        "ground_truth": "Nairobi, Kenya",
+        "output": "Nairobi, near Kenyatta Avenue and Moi Avenue."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-photographer-lying-on-the-ground-to-capture-pm-modis-photo.png",
+        "ground_truth": "Gandhi Smriti",
+        "output": "Answer: At a memorial site in India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-the-ethiopian-defence-force-drones-in-the-tigray-region-airspace-1c3a8113b30.png",
+        "ground_truth": "The images were from different sources, including Poland and Turkey",
+        "output": "Answer: Various military airfields"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-related-to-the-ongoing-conflict-in-northern-ethiopia-in-september-2022-d14cc7a74a85.png",
+        "ground_truth": "Northern Ethiopia",
+        "output": "Answer: Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-shows-bullet-train-maintenance-centre-in-china-not-gujarat.png",
+        "ground_truth": "Wuhan, China",
+        "output": "Answer: Qingdao, China"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-billboard-stating-journalist-anjana-kashyap-as-unofficial-spokesperson-of-bjp.png",
+        "ground_truth": "Delhi, India",
+        "output": "Answer: A street in India"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-kiran-rao-before-her-divorce-from-aamir-khan-shared-as-the-recent-one.png",
+        "ground_truth": "Bandra, Mumbai",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/the-japanese-bullet-train-in-this-photo-suffered-a-crack-on-its-bonnet-after-hitting-a-man-not-an-animal.png",
+        "ground_truth": "Between Hakata and Kokura stations in Japan, specifically at the JR Shin-Shimonoseki Station in Yamaguchi, Japan",
+        "output": "Answer: Japan"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-from-a-rally-in-nigeria-shared-as-huge-crowd-at-bharat-jodo-yatra-rally-in-ballari.png",
+        "ground_truth": "Ogbomosho city, Nigeria",
+        "output": "Kolkata's Brigade Parade Ground"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-doesnt-show-ethiopian-commandos-entering-tigrayan-towns-in-september-2022-8d44bdd30be9.png",
+        "ground_truth": "Kombolcha, Amhara region",
+        "output": "Answer: Somalia; Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-an-airstrike-at-shire-town-tigray-region-c7ac1cae4f13.png",
+        "ground_truth": "Levashovo, Russia",
+        "output": "Answer: Not specified"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-image-does-not-show-flooding-in-which-134-people-have-died-in-sudan-since-may-67e95ba71200.png",
+        "ground_truth": "Sudan",
+        "output": "Answer: Gauteng, South Africa"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-bobi-wine-holding-a-portrait-of-gen-muhoozi-kainerugaba-is-doctored-61a1c7d8b566.png",
+        "ground_truth": "Lviv, Ukraine",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-is-not-an-image-of-a-military-drone-shot-down-by-the-ethiopian-air-force-as-it-entered-fb68019e3dcb.png",
+        "ground_truth": "Libya",
+        "output": "Answer: Desert area, possibly in a remote region"
+    },
+    {
+        "img_path": "dataset/processed_img/no-such-massive-buddhist-conversion-event-was-held-in-jaipur-recently-images-show-dhamma-mela-organized-in-maharashtra.png",
+        "ground_truth": "Pimpri-chinchwad near Pune, Maharashtra",
+        "output": "Answer: Large gathering at a public event in Kolkata"
+    },
+    {
+        "img_path": "dataset/processed_img/edited-photo-of-a-pakistani-baby-born-with-a-polymelia-disorder-shared-as-miracle-baby-born-with-a-lord-shiva-symbol-on-his-forehead.png",
+        "ground_truth": "Sukkur, Pakistan",
+        "output": "I'm sorry, but I can't provide information about the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-photo-showing-two-wives-of-a-police-officer-who-gave-birth-on-the-same-day.png",
+        "ground_truth": "The photo was taken at a hospital in Kapoeta county, Eastern Equatoria State.",
+        "output": "Answer: Kawempe General Referral Hospital, Uganda"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-shared-as-pictures-of-indian-army-vehicles-that-were-hit-by-a-massive-landslide-in-ladakh.png",
+        "ground_truth": "1) Kutch district, 2) West Kameng district of Arunachal Pradesh, 3) Awantipora area of South Kashmir\u2019s Pulwama district",
+        "output": "Answer: Various locations in Chhattisgarh and one in Odisha"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-a-photo-of-chinese-actor-jackie-chan-wearing-a-t-shirt-branded-with-the-face-of-gen-5e765612d0e3.png",
+        "ground_truth": "Dallas, Texas",
+        "output": "I'm sorry, but I can't provide information about the location of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-the-war-in-ethiopia-893131952a25.png",
+        "ground_truth": "Various locations including Pakistan, Thailand",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-sp-leader-azam-khan-with-a-shaved-head-is-an-edited-one.png",
+        "ground_truth": "Delhi hospital",
+        "output": "Answer: Dehradun, hospital"
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-do-not-show-tplf-tanks-destroyed-in-raya-in-2022-f16249b7c513.png",
+        "ground_truth": "Damot Kebele of Amhara region, Ethiopia ; Kasagita town, Afar region, Ethiopia ; Road north of Mekele, the capital of Tigray ; Road near Humera, Ethiopia",
+        "output": "Answer: Conflict zone in Ukraine"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-belarusian-russian-joint-military-offensive-on-ukraine-22f9fab96606.png",
+        "ground_truth": "Minsk, Belarus",
+        "output": "Minsk, Belarus"
+    },
+    {
+        "img_path": "dataset/processed_img/kannda-the-temple-in-this-photo-is-in-gulbarga-city-of-karnataka-not-indonesia.png",
+        "ground_truth": "Gulbarga, Karnataka, India",
+        "output": "Answer: A temple in India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-two-men-arrested-in-possession-of-human-bones-in-kenya-b554f5fb6ea.png",
+        "ground_truth": "Cameroon",
+        "output": "I'm sorry, but I can't provide an answer based on the image."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-general-muhoozi-kainerugaba-pouring-himself-a-beer-is-doctored-113180ba316c.png",
+        "ground_truth": "Launch of a new beer by Nile Breweries",
+        "output": "I'm sorry, but I can't determine the location where this image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-the-ethiopian-air-force-dropping-warning-leaflets-on-mekelle-city-25863e4f278.png",
+        "ground_truth": "A village near Hawijah in Kirkuk province, Iraq",
+        "output": "Answer: Iraq"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-helicopter-made-at-arusha-technical-college-tanzania-fcafb848e7b4.png",
+        "ground_truth": "Hindustan Aeronautics Limited, India",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-does-not-show-aisha-jumwas-house-in-malindi-425b0f9ddec.png",
+        "ground_truth": "Mua Hills, Machakos County",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-of-a-man-beaten-by-police-was-not-taken-in-uganda-bc13c9ed67b3.png",
+        "ground_truth": "Tshwane, South Africa",
+        "output": "I'm sorry, but I can't provide information about the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-an-attack-on-tigray-by-the-ethiopian-air-force-17cfbc1839c2.png",
+        "ground_truth": "Southern California, USA",
+        "output": "Answer: Over the ocean"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-depict-ethiopian-national-defense-forces-in-selekleka-town-tigray-region-in-9d980eee616c.png",
+        "ground_truth": "Wuchale, Amhara regional state, Ethiopia",
+        "output": "Road to Abi Adi in the Tigray region of northern Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-of-lions-sleeping-outside-a-public-toilet-was-not-taken-in-uganda-4b30fee4540d.png",
+        "ground_truth": "Serengeti National Park, Tanzania",
+        "output": "Answer: Likely in a wildlife reserve or safari park in Africa."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-the-ethiopian-army-controlling-shire-alamata-and-korem-towns-in-october-ad9b99245da.png",
+        "ground_truth": "Gishen front, Ethiopia",
+        "output": "Turkey-Syria border"
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-are-not-of-the-ethiopian-army-controlling-tigray-towns-in-october-2022-57c9b8059f7f.png",
+        "ground_truth": "Locations vary for each image including Wichale town in Amhara region, Karlovac in Croatia, Iraq, Hayk town of Amhara city, and Agula in Tigray",
+        "output": "Tigray region of northern Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-picture-of-tplf-spokesperson-getachew-reda-in-a-hospital-bed-is-doctored-66f84fb60994.png",
+        "ground_truth": "Johannesburg hospital",
+        "output": "Answer: Hospital room"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-a-100-feet-long-american-dream-car-falsely-shared-as-shahrukh-khans-limousine-in-dubai.png",
+        "ground_truth": "Florida",
+        "output": "Answer: Dubai, UAE"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-road-in-kenya-7ed27431d90.png",
+        "ground_truth": "Southwest China\u2019s Chongqing Municipality",
+        "output": "Answer: Kunming, China"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-one-of-the-images-is-not-related-to-a-rocket-attack-on-shire-town-8ff50793545.png",
+        "ground_truth": "Kharkiv, Ukraine ; Shire Town, Tigray",
+        "output": "I'm sorry, but I can't determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-kenyans-queuing-to-receive-relief-food-283d0a21a397.png",
+        "ground_truth": "Iterileng informal settlement, near Laudium, southwest of Pretoria, South Africa",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-is-not-of-ex-kenyan-president-uhuru-enjoying-village-life-after-retirement-b4b48f84ad84.png",
+        "ground_truth": "The photo was taken during a development project visit in Gakoe, Gatundu North constituency.",
+        "output": "Answer: Belgut, Kericho County"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-the-statue-of-unity-with-names-written-on-it-is-a-morphed-one.png",
+        "ground_truth": "Statue of Unity",
+        "output": "Statue of Unity, India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-airstrike-in-the-oromia-region-in-october-2022-7e1593d017b6.png",
+        "ground_truth": "Lyubertsy, Russia",
+        "output": "Answer: Al-Daylami Air Base"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-was-not-taken-in-shinyalu-kakamega-f12ae11187be.png",
+        "ground_truth": "Milton Abbas, Dorset County, England",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-photo-is-not-of-kenya-powers-new-logo-e85fd2da0ed5.png",
+        "ground_truth": "Kenya",
+        "output": "Answer: Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-manmohan-singh-and-pm-modi-at-g20-summits-are-compared-with-a-misleading-narrative.png",
+        "ground_truth": "G20 summit, 2011",
+        "output": "Answer: France, Indonesia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-nandi-cottages-in-kenyas-kapsabet-town-90249c168261.png",
+        "ground_truth": "An area in Singapore",
+        "output": "Answer: Marina Bay, Singapore"
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-of-a-plane-crash-at-entebbe-international-airport-are-misleading-84114b8e2810.png",
+        "ground_truth": "Entebbe International Airport, Uganda",
+        "output": "Answer: Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-the-border-bridge-linking-uganda-and-kenya-a740cc82855a.png",
+        "ground_truth": "Border bridge at the Nigeria/Cameroon border",
+        "output": "Answer: Nigeria"
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-does-not-show-the-drought-situation-in-embolioi-kajiado-county-in-october-2022-3387774a4c74.png",
+        "ground_truth": "East Africa region",
+        "output": "Kabridahar, northeastern of Gode, Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-isnt-that-of-the-bugolobi-luzira-road-in-kampala-uganda-5cd831a61828.png",
+        "ground_truth": "National Highway 227, Madhubani district, Bihar, India",
+        "output": "Answer: Bhagalpur District, Bihar"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-the-meru-makutano-interchange-494a3191100d.png",
+        "ground_truth": "S\u00e3o Paulo City, Brazil",
+        "output": "S\u00e3o Paulo, Brazil"
+    },
+    {
+        "img_path": "dataset/processed_img/false-no-this-image-isnt-of-russia-s-attack-on-nato-warplanes-6901ea13876d.png",
+        "ground_truth": "Nevada, USA",
+        "output": "Answer: Not specified."
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-claiming-to-be-of-a-drone-hit-by-tdf-are-untrue-f3aef3a568cf.png",
+        "ground_truth": "Koh Kong province and Smach Village in Cambodia",
+        "output": "Answer: Melili, Narok County, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-pakistani-womans-photo-is-shared-as-that-of-a-love-jihad-victim-in-india.png",
+        "ground_truth": "Lahore, Pakistan",
+        "output": "Answer: Not specified in the articles."
+    },
+    {
+        "img_path": "dataset/processed_img/these-pictures-of-dead-chinese-soldiers-are-not-related-to-the-2020-galwan-clash.png",
+        "ground_truth": "China",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-was-messi-locked-up-in-saudi-arabia-no-an-old-picture-first-used-in-2012.png",
+        "ground_truth": "Saudi Arabia",
+        "output": "Answer: Saudi Arabia"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-is-shared-as-beer-cans-masked-as-soft-drinks-during-the-qatar-fifa-world-cup-2022.png",
+        "ground_truth": "Saudi Arabia",
+        "output": "Answer: Beverage factory in Saudi Arabia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-russian-military-equipment-used-to-disable-ukraine-s-weapons-daef46a66d67.png",
+        "ground_truth": "Kharkiv region, Ukraine",
+        "output": "Answer: Combat zone or military exercise area"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-some-of-these-images-do-not-show-the-bombing-in-mendi-and-the-victims-a9daf5a813bb.png",
+        "ground_truth": "Mixed (includes conflict locations apart from Mendi, West Wollega like Tigray and Nigeria)",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-victims-of-hunger-in-oromia-4b8818de03a3.png",
+        "ground_truth": "Hawlwadag district in Mogadishu, Somalia",
+        "output": "Baidoa, Somalia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-does-not-show-an-airstrike-on-selale-town-in-november-2022-fd5269626056.png",
+        "ground_truth": "Gecitkale military airbase near Famagusta in the self-proclaimed Turkish Republic of Northern Cyprus",
+        "output": "Answer: Turkey"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-beer-disguised-as-pepsi-intercepted-by-authorities-in-qatar-754179e7e1db.png",
+        "ground_truth": "Saudi Arabia",
+        "output": "Answer: A warehouse in Saudi Arabia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-does-not-show-a-town-in-kenya-d36d4adcaacc.png",
+        "ground_truth": "Union Street, San Francisco, California, United States of America",
+        "output": "Answer: San Francisco, California"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-col-navjot-singh-bal-who-died-in-april-2020-shared-as-recent-pictures-of-a-hospitalised-indian-army-soldier.png",
+        "ground_truth": "Bengaluru, Karnataka",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-does-not-show-a-victim-of-an-airstrike-in-mendi-2d1a09356b80.png",
+        "ground_truth": "Bishoftu town of Oromia region",
+        "output": "Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-used-to-show-construction-of-likoni-bypass-is-not-from-kenya-58edacf9d8a4.png",
+        "ground_truth": "Interstate Highway, United States of America",
+        "output": "I'm unable to determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-fulani-militants-captured-in-nigeria-6085eab22182.png",
+        "ground_truth": "First Image: Balidogle base, Somalia; Second Image: Malawi",
+        "output": "Answer: Conflict zone in South Sudan."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-sexually-explicit-textbook-being-used-in-kenyas-cbc-education-system-a047d95d4b8e.png",
+        "ground_truth": "South Africa",
+        "output": "I'm sorry, but I can't assist with that."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-yes-these-images-show-a-traffic-jam-along-seventh-day-gudele-street-in-juba.png",
+        "ground_truth": "Seventh-day \u2013 Gudele street, Juba, South Sudan",
+        "output": "Answer: Kisii town"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-have-no-relation-to-the-recent-anti-brahmin-slogans-issue-at-jnu.png",
+        "ground_truth": "Kolkata ; Italy",
+        "output": "I'm unable to determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-in-this-post-are-not-of-the-eritrean-army-202681a99edf.png",
+        "ground_truth": "Cameroon",
+        "output": "Asmara, Eritrea"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-bodies-of-ethiopian-refugees-found-in-a-mass-grave-in-malawi-in-october-7c0368a24f07.png",
+        "ground_truth": "Mozambique",
+        "output": "I'm sorry, but I can't determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-is-not-of-an-airstrike-on-nunu-kumba-east-wollega-in-november-2022-dc610d3c957c.png",
+        "ground_truth": "Naval Air Patuxent River Webster Field Annex in Saint Inigoes, Maryland, United States",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-do-not-show-people-who-wrote-anti-brahmin-slogans-on-jnu-walls.png",
+        "ground_truth": "Delhi University",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-amhara-genocide-in-oromia-2cb75cc7d104.png",
+        "ground_truth": "Rwanda",
+        "output": "I'm unable to determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-image-is-not-of-ethiopia-preparing-to-launch-its-second-satellite-748000198215.png",
+        "ground_truth": "Taiyuan space base in northern China",
+        "output": "Answer: Launch site in Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-doesnt-show-arms-taken-from-ethiopian-government-forces-ddd3713f14f8.png",
+        "ground_truth": "Lahore, Pakistan",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-these-images-are-not-of-a-protest-in-ethiopias-mekelle-city-in-november-2022-b997dcb26af8.png",
+        "ground_truth": "Mekelle city, Ethiopia",
+        "output": "Addis Ababa, Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-do-not-show-a-crowd-gathering-at-rahul-gandhis-bharat-jodo-yatra-in-rajasthan.png",
+        "ground_truth": "Jay Gurudev Ashram, Mathura, UP",
+        "output": "Kolkata's Brigade parade ground"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-south-sudanese-pastor-bathing-women-in-church-no-the-photos-are-by-a-ghanaian-skitmaker.png",
+        "ground_truth": "Ghana",
+        "output": "Answer: A church event in Kenya."
+    },
+    {
+        "img_path": "dataset/processed_img/edited-image-shared-as-rahul-gandhi-wearing-a-babas-attire.png",
+        "ground_truth": "Mahudiya Village of Madhya Pradesh",
+        "output": "Answer: Malerkotla, Punjab"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-fulani-kidnappers-captured-with-arms-by-the-biafran-vigilante-6a487bb9e1dd.png",
+        "ground_truth": "Kenya",
+        "output": "Answer: Juba, South Sudan"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-chaka-project-in-addis-ababa-a0e54de868b2.png",
+        "ground_truth": "Various locations, including but not limited to Sochi, Russia and Cancun, Mexico",
+        "output": "Answer: Bukit Timah, Singapore"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-japans-dressing-room-after-they-lost-to-costa-rica-in-the-fifa-2022-997e4c3272b4.png",
+        "ground_truth": "Italy's dressing room in a stadium where World Cup Qualifiers were held",
+        "output": "Answer: A sports facility or locker room."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-the-eritrean-army-leaving-the-tigray-region-in-november-2022-a8631945a6da.png",
+        "ground_truth": "Adi-Quala front lines",
+        "output": "Answer: Khoba, the frontline border with Yemen"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-is-not-of-eritrean-troops-withdrawing-from-tigray-ethiopia-in-november-5ff0d86cf0.png",
+        "ground_truth": "Tsorona, Eritrea",
+        "output": "Answer: Somalia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-an-airstrike-attack-on-ethiopias-bedasa-jarso-town-in-december-2022-5f7349e85421.png",
+        "ground_truth": "Jask port, southern Iran",
+        "output": "Answer: Kandahar Airfield"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-a-flying-drone-strapped-hanuman-idol-shared-as-a-picture-of-real-hanuman-flying-in-sky.png",
+        "ground_truth": "Over nine cities including Bhopal, Lucknow, Ludhiana, Allahabad, Nagpur, Varanasi, Indore, Pune, and Jaipur",
+        "output": "Answer: A street in India"
+    },
+    {
+        "img_path": "dataset/processed_img/visually-impaired-girls-photo-is-incorrectly-shared-as-she-saw-the-nuclear-blast-in-hiroshima.png",
+        "ground_truth": "Hiroshima",
+        "output": "Answer: Nagasaki, Japan"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-an-airstrike-on-west-sheger-8e9be4e631dc.png",
+        "ground_truth": "Persian Gulf region",
+        "output": "Answer: Kandahar Airfield"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-amhara-ethnic-victims-in-arsi-in-november-2022-743471b058f7.png",
+        "ground_truth": "Zawditu hospital in Addis Ababa",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-claiming-to-be-of-wollega-conflict-bodies-is-doctored-488cedbc73ba.png",
+        "ground_truth": "Addis Ababa City and Wollega",
+        "output": "I'm unable to determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-oromia-police-officers-joining-protests-in-december-2022-6e32950d24ad.png",
+        "ground_truth": "Oromia",
+        "output": "Answer: Not specified."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-crowds-at-raila-odingas-kamukunji-rally-9d48be315c16.png",
+        "ground_truth": "1) Jomo Kenyatta International Airport (JKIA), 2) Kamukunji grounds",
+        "output": "Kasarani and Langata Road, Nairobi"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-kenyas-health-cs-susan-nakhumicha-flagging-off-a-surgery-procedure-700bba8060b5.png",
+        "ground_truth": "KMTC Simulation Lab, Kenya",
+        "output": "Answer: Hospital"
+    },
+    {
+        "img_path": "dataset/processed_img/old-funeral-pictures-of-jawan-shakti-singh-shekhawat-who-died-in-a-road-accident-in-2018-are-shared-with-a-misleading-narrative.png",
+        "ground_truth": "Rajasthan\u2019s Chomu town",
+        "output": "Answer: Kashmir, India."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-allegedly-related-to-the-2020-galwan-clash-shared-now-in-the-context-of-the-recent-india-china-scuffle-in-the-tawang-sector.png",
+        "ground_truth": "Galwan Valley",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-ethnic-amharas-facing-execution-in-oromia-eaf70090091.png",
+        "ground_truth": "Baidoa, Somalia",
+        "output": "Oromia Region, Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-martha-karua-in-the-bahamas-4fe8d381bd67.png",
+        "ground_truth": "Kenya",
+        "output": "I'm sorry, but I can't determine where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/false-the-image-is-not-of-oromia-special-forces-beating-ethnic-amhara-students-in-december-2022-e7a687291004.png",
+        "ground_truth": "Oromia region",
+        "output": "I'm sorry, but I can't provide information about the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-picture-does-not-show-a-person-arrested-in-wollega-in-2022-f701d0d0ad47.png",
+        "ground_truth": "Jimma, Ethiopia",
+        "output": "Answer: Tsorona front line, south of Asmara"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-property-damaged-by-fano-in-oromia-in-december-2022-fc255c6c256c.png",
+        "ground_truth": "One image sourced to Wollo region of Ethiopia, Interpretation of the second one pertains to Afar region",
+        "output": "Answer: Yumbe District"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-ronaldo-shared-as-that-captured-during-the-2022-argentina-france-football-world-cup-final.png",
+        "ground_truth": "UEFA Champions League match between Juventus and BSC Young Boys at Allianz Stadium, Turin, Italy",
+        "output": "Answer: UEFA Champions League match"
+    },
+    {
+        "img_path": "dataset/processed_img/an-altered-image-shared-as-a-picture-of-joe-biden-touching-volodymyr-zelenskyys-posterior-during-their-recent-meeting-at-the-white-house.png",
+        "ground_truth": "The White House",
+        "output": "Answer: The White House, Washington, D.C."
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-of-traffic-jam-in-manali-during-christmas-new-year-holidays-shared-as-recent-one.png",
+        "ground_truth": "Leh-Manali Highway",
+        "output": "Answer: Manali, India"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-children-dressed-in-hindu-attire-and-dining-on-banana-leaves-was-not-taken-in-germany.png",
+        "ground_truth": "Bhaktivedanta Gurukul in Mayapur, West Bengal",
+        "output": "Mayapur, West Bengal, India"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-pm-modi-with-a-tonsured-head-is-a-morphed-one.png",
+        "ground_truth": "Original image was taken during the Parliament winter session in December 2017.",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/2019-photo-of-deepika-padukone-linked-to-the-ongoing-row-over-her-saffron-coloured-costume-in-pathaan-film.png",
+        "ground_truth": "Cannes International Film Festival",
+        "output": "Answer: Not specified in the articles."
+    },
+    {
+        "img_path": "dataset/processed_img/the-person-standing-beside-prime-minister-narendra-modi-in-this-photo-from-1993-is-not-amit-shah.png",
+        "ground_truth": "Germany",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-rahul-gandhi-consuming-alcohol-and-non-veg-food.png",
+        "ground_truth": "Haryana",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/both-these-images-show-cleaning-by-indian-railways-under-the-current-nda-government.png",
+        "ground_truth": "Howrah Junction railway station ; Asansol railway station",
+        "output": "Answer: Indian Railways station"
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-of-a-rickshaw-puller-who-died-from-a-heart-attack-recently-shared-as-a-death-due-to-cold-weather.png",
+        "ground_truth": "Patna airport",
+        "output": "Answer: Varanasi, Uttar Pradesh"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-drone-attack-on-kombolcha-town-in-the-oromia-region-in-november-2022-fb652ebf4248.png",
+        "ground_truth": "Semnan, Iran",
+        "output": "Answer: Kandahar Airfield"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-massacre-in-oromia-by-fano-and-eritrean-forces-deacf501b384.png",
+        "ground_truth": "Metekel, Benishangul, Ethiopia",
+        "output": "I'm sorry, but I can't assist with that."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-checking-president-kaguta-musevenis-tweet-of-an-image-of-rwenzori-mountains-1ee7e224ad94.png",
+        "ground_truth": "Hooker Valley track at Mount Cook, New Zealand",
+        "output": "Aoraki / Mount Cook, New Zealand"
+    },
+    {
+        "img_path": "dataset/processed_img/digitally-edited-image-shared-as-visuals-of-police-guarding-a-theatre-screening-pathaan-movie.png",
+        "ground_truth": "Delite Cinema, Delhi",
+        "output": "Answer: A cinema in Delhi, India"
+    },
+    {
+        "img_path": "dataset/processed_img/2021-photo-of-bjp-and-congress-leaders-meeting-speaker-om-birla-shared-as-bjps-secret-meeting-with-congress.png",
+        "ground_truth": "Lok Sabha Speaker Om Birla\u2019s office chamber",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-picture-is-not-from-a-scene-of-a-protest-in-sudan-in-january-2023-214f4a04a854.png",
+        "ground_truth": "Sudan",
+        "output": "Khartoum, Sudan"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-picture-is-not-related-to-an-attack-on-fano-troops-87ef80275ab4.png",
+        "ground_truth": "Addis Ababa to Dese",
+        "output": "I'm sorry, but I can't determine the location where this image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-amhara-special-forces-on-the-move-from-raya-in-december-2022-cd16c28972b9.png",
+        "ground_truth": "Western Amhara",
+        "output": "Answer: Khoba, the frontline border with Yemen"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-shows-rahul-gandhi-with-britains-labour-party-leader-not-with-bbc-producer.png",
+        "ground_truth": "London",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-south-african-school-children-who-died-from-the-covid-19-vaccine-9e6c9d3672b2.png",
+        "ground_truth": "Kakamega Primary School in western Kenya",
+        "output": "I'm unable to determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-man-detained-in-nyamache-kisii-county-for-defiling-his-two-children-3db251db8c7c.png",
+        "ground_truth": "Blantyre, Malawi",
+        "output": "I'm sorry, but I can't determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-aerial-view-of-kenyas-masinde-muliro-university-of-science-and-c3cfe8034fbf.png",
+        "ground_truth": "University of Ghana",
+        "output": "Answer: Ooty, India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-is-not-a-picture-of-sea-spiders-in-south-africa-b681fd8068c3.png",
+        "ground_truth": "Still Bay, South Africa",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-shared-as-a-recent-picture-of-mukesh-ambanis-family-posing-a-selfie-with-shah-rukh-khan-while-watching-the-pathaan-film.png",
+        "ground_truth": "Mumbai at the launch event of Reliance Jio 4G services",
+        "output": "Answer: Event venue, Mumbai"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-taken-during-the-arrival-of-the-statue-of-our-lady-of-fatima-in-buka-island-shared-as-from-bangalore-with-a-false-narrative.png",
+        "ground_truth": "Buka Island, Autonomous Region of Bougainville, Papua New Guinea",
+        "output": "Answer: Nigeria"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-burning-houses-belonging-to-wollo-oromo-people-943b1db048dc.png",
+        "ground_truth": "Kola Diba town of Central Gondar Zone, Amhara region, Ethiopia",
+        "output": "Answer: Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-wasnt-taken-in-ataye-town-amhara-region-87e1477ab3ba.png",
+        "ground_truth": "Nekemte, Ethiopia",
+        "output": "I'm sorry, but I can't determine the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-the-picture-of-an-indian-expressing-his-love-for-babar-azam-over-virat-kohli-during-india-vs-new-zealand-match.png",
+        "ground_truth": "India",
+        "output": "Answer: Cricket stadium, likely in Pakistan."
+    },
+    {
+        "img_path": "dataset/processed_img/edited-images-shared-as-the-pictures-of-golgappa-shops-in-india-named-after-the-new-ai-chatbot-chat-gpt.png",
+        "ground_truth": "South Extension 2 area of New Delhi (Sai Chaat Corner); Nungambakkam, Chennai (Nungambakkam Chaat Corner)",
+        "output": "Answer: West Delhi"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-girl-being-caned-in-kuria-kenya-for-resisting-fgm-5a1d1be55bfc.png",
+        "ground_truth": "Maniema, DRC",
+        "output": "I'm sorry, but I can't provide information about the location of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-president-muhammadu-buharis-helicopter-following-an-attack-at-kano-eea615f24549.png",
+        "ground_truth": "Uasin Gishu County, Kenya",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-school-in-nigeria-f92204ef267.png",
+        "ground_truth": "Kilifi County, Kenya",
+        "output": "Answer: Kodada market, Homa Bay County"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-bobi-wine-standing-next-to-an-lgbt-branded-banner-is-doctored-2452c4776e21.png",
+        "ground_truth": "The image was taken at the European Parliament in Brussels.",
+        "output": "Answer: Uganda"
+    },
+    {
+        "img_path": "dataset/processed_img/the-person-standing-beside-rahul-gandhi-in-this-photo-is-not-nathan-anderson-the-founder-of-hindenburg-research.png",
+        "ground_truth": "United Kingdom and Germany",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-pictures-shared-as-pm-modi-wearing-an-islamic-skull-cap.png",
+        "ground_truth": "Aljamea-tus-Saifiyah Arabic Academy, Mumbai",
+        "output": "Answer: Kamal Ka Pul Masjid."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-people-celebrating-the-appointment-of-new-bishops-in-january-2023-9d1f2fea19fa.png",
+        "ground_truth": "West Wollega Gimbi, Oromia, Ethiopia",
+        "output": "Dessie city"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photos-are-shared-linking-them-to-the-recent-turkey-earthquake.png",
+        "ground_truth": "Ukraine ; Baghlar city of Diyarbakir ; G\u00f6lc\u00fck, Kocaeli (Turkey, 1999 earthquake) ; Hatay, Turkey",
+        "output": "Answer: Peshawar, Pakistan"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-kibabii-university-student-fighting-a-lecturer-a39aa865022e.png",
+        "ground_truth": "Heritage High School, Georgia, USA",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-is-not-of-ugandans-killed-in-juba.png",
+        "ground_truth": "Central Equatoria State, South Sudan",
+        "output": "I'm sorry, but I can't provide information about the location of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/the-rape-accused-with-a-bitten-lip-in-the-photo-is-not-a-muslim.png",
+        "ground_truth": "Meerut, Uttar Pradesh",
+        "output": "Answer: Not specified in the articles."
+    },
+    {
+        "img_path": "dataset/processed_img/an-old-photo-of-mehbooba-mufti-offering-milk-to-goddess-ragnya-devi-is-shared-as-recent.png",
+        "ground_truth": "Kheer Bhavani Mandir",
+        "output": "Answer: A temple in Srinagar, India"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-from-afghanistan-is-shared-as-people-trying-to-escape-pakistan-due-to-the-economic-crisis.png",
+        "ground_truth": "Jalalabad, Afghanistan",
+        "output": "Answer: Peshawar, Pakistan"
+    },
+    {
+        "img_path": "dataset/processed_img/digitally-altered-image-shared-as-recent-picture-of-joe-biden-eating-ice-cream-in-ukraine.png",
+        "ground_truth": "Cleveland, Ohio, U.S.",
+        "output": "Kyiv, Ukraine"
+    },
+    {
+        "img_path": "dataset/processed_img/turkey-earthquake-game-of-thrones-still-falsely-shared-as-photo-of-trapped-couple.png",
+        "ground_truth": "Set of the HBO TV series Game of Thrones",
+        "output": "I'm sorry, but I can't provide information about the location of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-are-not-of-cattle-thieves-relocating-to-uganda-in-february-2023-91db256c2f0.png",
+        "ground_truth": "Kamusuk, Tiaty Sub-county ; Tiaty, Baringo County ; Baringo North",
+        "output": "Niamana Livestock market, Bamako, Mali"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-airstrike-at-guji-in-ethiopias-oromia-region-in-january-2023-65763d110f1c.png",
+        "ground_truth": "Bakashikha, Russia",
+        "output": "Answer: Airshow in Russia."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-held-in-somaliland-7b4e23de5316.png",
+        "ground_truth": "Ethiopia",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-a-february-2023-sheger-bus-accident-in-megenagna-terminal-addis-ababa-c16714b21bfe.png",
+        "ground_truth": "From six kilo to Ferensa, Addis Ababa, Ethiopia",
+        "output": "Answer: Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/2013-photo-of-bhojpuri-actor-irfan-khans-arrest-shared-now-with-naayi-jihad-narrative.png",
+        "ground_truth": "Bihar\u2019s Chhapra district",
+        "output": "I'm sorry, but I can't provide information about the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-these-images-of-a-government-vehicle-seized-with-weapons-in-kenyas-north-rift-are-3ce2fc6d9a8a.png",
+        "ground_truth": "Lodwar-Kakuma road, Turkana West",
+        "output": "Answer: Different locations including Kismayu town in Somalia and Kayunga town in Uganda."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-of-a-damaged-highway-pillar-was-not-taken-in-uganda-fec27c4c57ca.png",
+        "ground_truth": "Japan",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-the-image-is-unrelated-to-current-drought-in-borena-a9e44c7e446a.png",
+        "ground_truth": "Hodan district of Somalia's capital Mogadishu",
+        "output": "Baidoa, Somalia"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-image-was-not-taken-in-juba.png",
+        "ground_truth": "Uganda",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-customs-market-battery-photo-traced-to-zambia.png",
+        "ground_truth": "Matero, Lusaka, Zambia",
+        "output": "Answer: Yumbe District"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-photos-shared-as-pictures-of-unaccounted-money-and-jewellery-seized-by-ed-at-lalu-prasad-yadavs-house.png",
+        "ground_truth": "Multiple locations including a e-gaming firm in Kolkata, premises of Ponzi scam operators in Nagpur and Mumbai, and the premises associated with Lalu Prasad Yadav's family",
+        "output": "I'm sorry, but I can't determine the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/no-this-image-doesnt-show-p-chidambaram-touching-jayalalithas-feet.png",
+        "ground_truth": "Tamil Nadu",
+        "output": "Answer: An event organized by Sangeetha Music"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-arent-images-of-a-snake-cursed-by-torit-residents-grandparents.png",
+        "ground_truth": "Phu Langka National Park in the Bueng Khong Long District of Bueng Kan Province, Thailand",
+        "output": "Answer: Brazil"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-a-rock-structure-in-thailands-naga-cave-shared-as-a-giant-snake-spotted-in-switzerland.png",
+        "ground_truth": "Naka or Naga cave in Phu Langka National Park in the Bueng Kan province in Thailand",
+        "output": "Answer: Ao Phang Nga National Park, Thailand"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-fred-matiangi-detained-at-central-police-station-on-7-march-2023-599a22bbb3a4.png",
+        "ground_truth": "Directorate of Criminal Investigations (DCI) headquarters on Kiambu Road in Nairobi",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-eritrean-forces-burning-forests-in-tigray-region-in-march-2023-d925485aa373.png",
+        "ground_truth": "Wof Washa forest in Amhara Region",
+        "output": "Answer: Gauteng, South Africa"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-torture-victim-in-ethiopias-gurage-zone-in-2023-1be0b06f3b5d.png",
+        "ground_truth": "Saudi Arabia",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-azimio-protesters-arresting-a-police-officer-in-nairobi-on-20-march-de749996ecb4.png",
+        "ground_truth": "Kilgoris",
+        "output": "Answer: Kisumu-Kakamega Highway"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-of-a-protester-fighting-a-police-officer-is-not-from-the-20-march-2023-demos-in-8eb45b021c67.png",
+        "ground_truth": "Valparaiso, Chile",
+        "output": "Answer: Protest site or conflict zone"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-images-are-not-of-a-protest-in-nairobi-kenya.png",
+        "ground_truth": "Near the Heatherly Cemetery in Mamelodi East",
+        "output": "Answer: Kenya (during protests in 2016)"
+    },
+    {
+        "img_path": "dataset/processed_img/turkey-earthquake-picture-shared-as-that-of-a-collapsed-building-following-the-earthquake-in-jammu-and-kashmir.png",
+        "ground_truth": "Kahramanmaras, Turkey",
+        "output": "Elazig city, Eastern Turkey"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-nairobi-kenya-cb3b23674030.png",
+        "ground_truth": "Singapore",
+        "output": "Answer: Marina Bay, Singapore"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-recycled-condoms-for-sale-seized-from-moi-university-students-d1eb14ef4fec.png",
+        "ground_truth": "Binh Duong, Vietnam",
+        "output": "Answer: Binh Duong, Vietnam"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-dr-b-r-ambedkars-poster-displayed-on-longest-us-train.png",
+        "ground_truth": "Delhi metro rail",
+        "output": "Answer: Delhi Metro station"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-a-somali-special-forces-attack-in-eastern-oromia-in-march-2023-509832aea9ab.png",
+        "ground_truth": "Ashkelon ; Ethiopia",
+        "output": "Answer: Hosale, Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-30-men-standing-on-audis-dkw-car-has-nothing-to-relate-with-china.png",
+        "ground_truth": "Berlin, Germany",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-ethiopian-activist-taye-bogale-on-the-way-of-medemer-cover-is-doctored-c8e97e2757ca.png",
+        "ground_truth": "Twitter",
+        "output": "Answer: Not specified in the articles."
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-is-not-of-ethiopian-government-forces-entering-somalia-in-march-2023-3bc2389b3712.png",
+        "ground_truth": "Somalia",
+        "output": "Tigray region of northern Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-ugandan-in-a-gay-wedding-in-canada-1e43127f6a80.png",
+        "ground_truth": "Manchester, United Kingdom",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/the-man-posing-with-pm-modi-in-this-photo-is-not-gujarat-conman-kiran-patel.png",
+        "ground_truth": "White House in Washington",
+        "output": "Answer: The White House"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-shared-as-picture-taken-when-arvind-kejriwal-offered-an-apology-to-nitin-gadkari.png",
+        "ground_truth": "Transport Bhawan in Delhi",
+        "output": "Answer: 7 Lok Kalyan Marg residence in New Delhi"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-of-snake-with-alleged-nagamani-is-manipulated.png",
+        "ground_truth": "Ratnara\u2019s village in Madhya Pradesh",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/viral-photo-doesnt-show-subramanian-swamy-with-his-daughter-and-granddaughter.png",
+        "ground_truth": "Bengaluru airport",
+        "output": "Answer: Airport in India"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-shows-the-iftar-event-held-at-eden-hindu-hostel-not-at-presidency-university-campus.png",
+        "ground_truth": "Eden Hindu Hostel, Kolkata",
+        "output": "Answer: Kolkata"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-the-keoratola-crematorium-with-an-i-love-keoratola-mahasashan-sign-board-is-fake.png",
+        "ground_truth": "Keoratola Crematorium, Kolkata",
+        "output": "Kolkata"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-pictures-are-unrelated-to-the-drought-in-ethiopias-somali-region-in-2023-220d78b0ceda.png",
+        "ground_truth": "Beda'as Kebele, Danan woreda in the Shabelle zone of the Somali region of Ethiopia ; Somali region of Ethiopia (exact location unclear)",
+        "output": "I'm sorry, but I can't determine the location where the image was taken based on the information provided."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-pictures-dont-depict-the-sudan-pipeline-transporting-oil-from-south-sudan.png",
+        "ground_truth": "India",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-nairobi-road-cleaned-by-the-countys-new-sweeping-trucks-82fba2bec3b7.png",
+        "ground_truth": "Kimathi Street in Nairobi",
+        "output": "Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-two-of-these-photos-are-not-from-the-april-2023-sudan-unrest-45c170e197de.png",
+        "ground_truth": "Kerch Bridge and Mariupol (Ukraine) for the first two photos. Khartoum (Sudan) for the third photo.",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-sunny-leones-kochi-rally-shared-as-sea-of-people-gathered-at-pm-modis-kochi-roadshow.png",
+        "ground_truth": "Kochi",
+        "output": "Answer: Chennai, India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-about-the-aftermath-of-a-russian-strike-on-a-nato-command-centre-in-a4572291800b.png",
+        "ground_truth": "Syria",
+        "output": "I'm sorry, but I can't determine the location where this image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-tigray-forces-who-attacked-tselemt-people-in-april-2023-90f002da2f9d.png",
+        "ground_truth": "Adwa town",
+        "output": "Answer: Somalia"
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-related-to-quran-recitation-event-from-turkey-shared-with-a-false-child-marriage-narrative.png",
+        "ground_truth": "Elazig, Turkey",
+        "output": "I'm sorry, but I can't provide information about the location where this image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-the-conflict-between-the-ethiopian-army-and-amhara-special-forces-3eb254da0468.png",
+        "ground_truth": "Southern Tigray",
+        "output": "Tigray region of northern Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-pastor-paul-mackenzie-at-state-house-nairobi-is-not-authentic-78d5ef19874.png",
+        "ground_truth": "State House, Nairobi",
+        "output": "Answer: Belgut, Kericho County"
+    },
+    {
+        "img_path": "dataset/processed_img/news-of-girls-being-killed-on-dead-bodies-in-pakistan-is-true-but-this-photo-of-the-tomb-being-locked-is-not-from-pakistan-it-is-from-hyderabad.png",
+        "ground_truth": "Hyderabad, India",
+        "output": "Answer: India"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-the-wreckage-of-mh370-a-malaysian-airlines-plane-that-has-been-missing-since-2014.png",
+        "ground_truth": "Gulf of Aqaba, Jordan",
+        "output": "Answer: Underwater near the coast of Honduras"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-graphic-image-of-burnt-bodies-is-not-from-the-kanungu-religious-movement-massacre-in-2cd34d58101.png",
+        "ground_truth": "Sange, South Kivu Province, DRC",
+        "output": "Answer: Kasese, Uganda"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-pastor-paul-mackenzie-in-an-odm-branded-t-shirt-has-been-doctored-68e1e7359ed3.png",
+        "ground_truth": "Kilifi County",
+        "output": "Kisugu village in Kampala, Uganda"
+    },
+    {
+        "img_path": "dataset/processed_img/no-the-nepal-government-did-not-release-currency-notes-featuring-buddhas-image.png",
+        "ground_truth": "Nepal",
+        "output": "Answer: Nepal"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-wrestlers-ending-their-protest-against-wfi-president-brij-bhushan-singh-at-jantar-mantar.png",
+        "ground_truth": "Jantar Mantar, Delhi",
+        "output": "I don't know where this image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-the-british-royal-family-has-been-doctored-to-include-kenyan-president-cef504b74eb8.png",
+        "ground_truth": "Buckingham Palace, London, United Kingdom",
+        "output": "Buckingham Palace, London"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-eritrean-troops-close-to-the-border-with-sudan-59bdbabb97b1.png",
+        "ground_truth": "Zalambessa border",
+        "output": "Eritrea"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-ms-dhoni-touching-the-feet-of-sachin-tendulkar-is-an-edited-one.png",
+        "ground_truth": "Match between Chennai Super Kings and Mumbai Indians",
+        "output": "Answer: Cricket match, likely in India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-animals-killed-by-oromo-army-in-north-shoa-amhara-in-may-2023-2a9addfdcf9f.png",
+        "ground_truth": "Gambo district, South Wollo Zone, Ethiopia",
+        "output": "Answer: Kabridahar, northeastern of Gode, Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-one-of-these-images-is-not-related-to-the-2023-stampede-in-yemen-9f1ee3cc8edf.png",
+        "ground_truth": "Yemen",
+        "output": "Answer: Yemen"
+    },
+    {
+        "img_path": "dataset/processed_img/there-is-no-truth-in-this-photo-that-is-being-shared-with-the-propaganda-that-pakistani-flags-were-hoisted-after-the-congress-won-the-karnataka-assembly-elections.png",
+        "ground_truth": "Bhatkal, Karnataka, India",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-entering-eritrea-e06e493064e3.png",
+        "ground_truth": "Dabat, Amhara Region",
+        "output": "I'm sorry, but I can't determine the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/what-is-seen-in-this-photo-is-not-a-pile-of-hindu-skulls-kapalalas-these-are-bison-buffalo-skulls.png",
+        "ground_truth": "Detroit, Michigan, USA at Michigan Carbon Works",
+        "output": "Answer: North America"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-images-shared-as-enormous-crowd-supporting-csk-ahead-of-ipl-2023-final.png",
+        "ground_truth": "Ethiopia ; Bangkok, Thailand ; Gran Canaria, Spain",
+        "output": "Answer: Addis Ababa, Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-the-detained-wrestlers-smiling-in-a-police-van-is-digitally-altered.png",
+        "ground_truth": "Jantar Mantar",
+        "output": "Answer: India"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-yogi-adityanath-bowing-in-front-of-tipu-sultan-is-digitally-morphed.png",
+        "ground_truth": "Dr. Ambedkar Memorial in Lucknow",
+        "output": "Answer: Event in Uttar Pradesh"
+    },
+    {
+        "img_path": "dataset/processed_img/the-woman-in-this-photo-is-a-victim-of-hate-crime-not-the-alleged-love-jihad.png",
+        "ground_truth": "East London",
+        "output": "I'm sorry, but I can't provide information about the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-from-andhra-pradesh-and-west-bengal-shared-as-the-pictures-of-anti-modi-billboards-and-graffiti-in-rajasthan.png",
+        "ground_truth": "Andhra Pradesh and West Bengal",
+        "output": "Answer: India"
+    },
+    {
+        "img_path": "dataset/processed_img/a-digitally-edited-image-is-shared-alleging-that-a-hindu-temple-in-rajasthan-denies-entry-to-certain-sections.png",
+        "ground_truth": "Sirohi, Rajasthan",
+        "output": "Answer: Not specified in the image."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-shared-as-a-recent-picture-showing-coffins-of-us-soldiers-who-died-in-the-russia-ukraine-war.png",
+        "ground_truth": "Ramstein Air Force Base",
+        "output": "Answer: Military transport area, possibly in a conflict zone."
+    },
+    {
+        "img_path": "dataset/processed_img/photo-of-a-man-transporting-a-mannequin-in-egypt-shared-as-the-visuals-of-a-muslim-carrying-a-dead-body-on-a-motorcycle.png",
+        "ground_truth": "Cairo, Egypt",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-a-murdered-woman-with-a-trident-tattooed-on-her-forearm-is-shared-with-a-false-communal-angle.png",
+        "ground_truth": "Uttan area west of Bhayandar in Maharashtra",
+        "output": "Answer: Uthan Beach, Maharashtra"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-are-shared-as-police-attack-on-farmers-at-tractor-rally-protests-on-republic-day.png",
+        "ground_truth": "Delhi, India ; Mukherjee Nagar, North West Delhi, India",
+        "output": "Answer: Delhi"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-anti-finance-bill-protests-in-kenya-on-6-june-2023-54c69ef44900.png",
+        "ground_truth": "Nairobi, Kenya",
+        "output": "Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-pm-modi-waving-hands-while-standing-on-a-staircase-is-an-edited-one.png",
+        "ground_truth": "Karnataka\u2019s Tumukur",
+        "output": "Answer: Under construction site"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-sandals-featuring-lord-ganesha-is-old-they-were-withdrawn-from-the-market-20-years-ago.png",
+        "ground_truth": "USA",
+        "output": "Answer: India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-troops-captured-by-fano-in-amhara-region-in-may-2023-d39afc4ec398.png",
+        "ground_truth": "Amhara region",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-from-italys-milan-city-shared-as-the-picture-of-a-melted-traffic-light-in-lucknow.png",
+        "ground_truth": "At the junction joining Via Bermago and Viale Regina streets in Milan city, Italy",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/2019-photo-from-telangana-shared-as-the-recent-picture-of-a-hoarding-of-cmr-shopping-mall-endorsing-love-jihad-in-karnataka.png",
+        "ground_truth": "Telangana",
+        "output": "Answer: CMR Shopping Mall, India"
+    },
+    {
+        "img_path": "dataset/processed_img/the-journalist-sitting-with-dawood-ibrahim-in-this-photo-is-not-supriya-shrinate.png",
+        "ground_truth": "Pearl Building, Dubai",
+        "output": "Answer: Telangana, India"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-aliens-in-south-africa-184d139d5ded.png",
+        "ground_truth": "Nature\u2019s Valley, South Africa",
+        "output": "Answer: The location is not specified in the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-ethnic-amhara-evicted-from-guraferda-in-june-2023-1f24975c6bae.png",
+        "ground_truth": "North of Goma, Eastern Congo",
+        "output": "Answer: Tsorona front line, south of Asmara"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-drone-attack-in-north-shewa-in-2023-a0baf77c63c7.png",
+        "ground_truth": "Gecitkale Airport",
+        "output": "Answer: Amhara region"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-shakahola-starvation-victims-body-in-kenya-marked-for-autopsy-497d0a19f7c1.png",
+        "ground_truth": "Siberia",
+        "output": "I'm sorry, but I can't provide information about the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-a-dilapidated-road-in-kampala-uganda-bcb967987c98.png",
+        "ground_truth": "Gafaru Street in Ikotun, Alimosho local government, Lagos State, Nigeria",
+        "output": "Answer: Nigeria"
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-is-not-of-the-current-state-of-roads-in-taiwan-dfc3f46bb3c3.png",
+        "ground_truth": "Taiwan",
+        "output": "Answer: Taiwan"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-of-an-injured-woman-breastfeeding-her-child-falsely-linked-to-the-ongoing-violence-in-manipur.png",
+        "ground_truth": "Thailand",
+        "output": "I'm sorry, but I can't provide information about the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-pm-modi-staring-inappropriately-at-rihanna-is-morphed.png",
+        "ground_truth": "Rihanna's photo was taken at Harvard University and Narendra Modi's photo was likely from a traders\u2019 convention in New Delhi.",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-wrongly-linked-to-jammu-national-highway-44-actually-depicts-a-chinese-expressway.png",
+        "ground_truth": "Weiyuan-Wudu Expressway, Gansu province, Northwest China",
+        "output": "Answer: Sichuan, China"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ivan-khurs-a-russian-intelligence-ship-after-an-attack-e27e890ba30a.png",
+        "ground_truth": "Port of Aden, Yemen",
+        "output": "Answer: Gulf of Oman."
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-photo-isnt-of-a-skyscraper-in-siaya-county-kenya-f4890df106b.png",
+        "ground_truth": "Oloitoktok Road in Kileleshwa, Nairobi",
+        "output": "Answer: Siaya Park, Nairobi"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-image-is-not-of-a-pro-refugee-protest-in-france-in-2016-c346f34912d4.png",
+        "ground_truth": "Brussels, Belgium",
+        "output": "Answer: France"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-these-photos-of-nigerian-politician-peter-obi-with-french-president-emmanuel-macron-are-3a19bcb205f4.png",
+        "ground_truth": "A state banquet in Paris hosted by Emmanuel Macron on 23 June 2023",
+        "output": "Answer: Paris, France"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-raila-odinga-stadium-in-homa-bay-county-6306a727417a.png",
+        "ground_truth": "Al Janoub Stadium in Al Wakrah, Qatar",
+        "output": "Answer: Al Bayt Stadium, Qatar"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-homa-bay-county-governor-s-park-f0d060ee9432.png",
+        "ground_truth": "RH Rooftop Restaurant, New York, USA",
+        "output": "Answer: Rooftop garden, Singapore"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-does-this-photo-show-a-man-who-added-hiv-infected-blood-to-pepsi-products.png",
+        "ground_truth": "Sudan to Nigeria (Extradition)",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-does-this-picture-show-parts-of-juba.png",
+        "ground_truth": "Khartoum, Sudan",
+        "output": "Answer: Juba, South Sudan"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-are-these-images-all-from-south-sudan.png",
+        "ground_truth": "Tharparkar Desert, Pakistan",
+        "output": "Answer: Juba, South Sudan"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-nepals-tik-tok-stars-falsely-shared-a-photo-of-finlands-ministers.png",
+        "ground_truth": "Nepal",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-of-a-dalit-familys-naked-protest-shared-as-a-picture-depicting-the-persecution-of-a-christian-pastors-family-in-uttar-pradesh.png",
+        "ground_truth": "Dankaur police station in the Gautam Budh Nagar district of Uttar Pradesh",
+        "output": "I'm sorry, but I can't provide information about the location of the image."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-suspect-who-laced-pepsi-with-hiv-infected-blood-40b1d3089858.png",
+        "ground_truth": "Nigeria",
+        "output": "I'm sorry, but I can't determine the location where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/a-2015-photo-of-a-flooded-chennai-airport-is-passed-off-as-that-of-ahmedabad-airport.png",
+        "ground_truth": "Chennai airport",
+        "output": "Answer: Mumbai, Maharashtra"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-was-this-picture-of-a-man-holding-a-gun-taken-in-bugolobi-kampala.png",
+        "ground_truth": "Kenya",
+        "output": "Answer: Nairobi"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-shared-as-pictures-showing-the-recent-communal-violence-in-haryana.png",
+        "ground_truth": "Various locations including West Bengal, Bangladesh, Uttarakhand, Pakistan, Surat and Telangana in India",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-isnt-of-a-south-sudanese-man-with-his-two-wives.png",
+        "ground_truth": "Ghana",
+        "output": "Answer: Nigeria"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-shah-rukh-khan-washing-his-feet-in-a-wash-basin-is-a-bts-still-of-the-movie-jab-harry-met-sejal.png",
+        "ground_truth": "Film Set",
+        "output": "Answer: Bathroom"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-a-photo-of-the-president-of-south-sudan-holding-an-illuminati-contract.png",
+        "ground_truth": "South Sudan",
+        "output": "Juba, South Sudan"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-picture-misidentified-as-juba-south-sudan.png",
+        "ground_truth": "Johannesburg, South Africa",
+        "output": "Answer: Pretoria, South Africa"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-depicts-bauchi-state-nigeria-not-yei-county-south-sudan.png",
+        "ground_truth": "Bauchi State, Nigeria",
+        "output": "Answer: Nigeria"
+    },
+    {
+        "img_path": "dataset/processed_img/an-image-of-a-pedestrian-bridge-in-chinas-kunming-city-is-shared-as-that-from-gorakhpur-in-india.png",
+        "ground_truth": "Kunming City in Yunnan province of China",
+        "output": "Kunming, China"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-longisa-in-bomet-kenya-94c61e38785c.png",
+        "ground_truth": "Kisoro, Uganda",
+        "output": "Answer: Mount Kenya region, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-showcasing-multi-transportation-modes-shared-on-social-media-is-digitally-edited.png",
+        "ground_truth": "Rajahmundry",
+        "output": "Answer: Rajmahal in Jharkhand"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-a-zimbabwean-at-a-polling-booth-in-the-23-august-2023-elections-6f1a7e2246de.png",
+        "ground_truth": "Kisumu, Kenya",
+        "output": "Answer: Garissa University College in Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-kenyan-dp-rigathi-gachagua-in-maasai-regalia-is-doctored-2561f00f6619.png",
+        "ground_truth": "Arusha, Tanzania",
+        "output": "Tanzania"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-the-royal-australian-navy-ships-ramming-an-illegal-immigrants-boat-7677a9eed4cc.png",
+        "ground_truth": "East China Sea",
+        "output": "Answer: Near the Black Sea"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-a-monk-suffering-from-a-genetic-disorder-is-being-shared-with-a-false-narrative.png",
+        "ground_truth": "Thailand",
+        "output": "Thailand"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-a-handshake-between-nigerian-president-bola-tinubu-and-politician-peter-obi-f6e546b51e33.png",
+        "ground_truth": "Tinubu\u2019s Abuja home",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-depicting-crowd-watching-babar-azam-live-at-the-lal-chowk-is-digitally-morphed.png",
+        "ground_truth": "Lal Chowk, Kashmir",
+        "output": "Lal Chowk, Kashmir"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-is-not-of-two-police-officers-kissing-taken-in-juba.png",
+        "ground_truth": "Tanzania",
+        "output": "Answer: Kisumu-Kakamega Highway"
+    },
+    {
+        "img_path": "dataset/processed_img/the-photo-of-a-crescent-earth-seen-from-the-moon-was-captured-by-the-apollo-17-spacecraft-not-the-orion.png",
+        "ground_truth": "Moon's orbit (from the Apollo 17 spacecraft)",
+        "output": "Answer: The Moon"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-is-not-of-a-house-found-in-jinja-eastern-uganda.png",
+        "ground_truth": "Riat Hills, along the Kisumu-Kakamega highway in Kenya",
+        "output": "Answer: Uganda"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-is-not-an-image-of-a-bridge-in-juba-south-sudan.png",
+        "ground_truth": "Moscow, Russia",
+        "output": "Answer: Moscow, Russia"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-whatsapp-picture-with-nigerian-airtel-number-cant-kill.png",
+        "ground_truth": "Lagos, Nigeria",
+        "output": "I'm sorry, but I can't provide that information."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-joe-biden-and-narendra-modi-sitting-in-front-of-a-mahabharatha-wall-painting-is-edited.png",
+        "ground_truth": "7, Lok Kalyan Marg",
+        "output": "Answer: Indian Prime Minister's Office"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-pictures-of-flooding-in-unity-state-are-old.png",
+        "ground_truth": "Unity State",
+        "output": "Answer: Assam, India"
+    },
+    {
+        "img_path": "dataset/processed_img/edited-image-shared-as-rohit-sharmas-poster-exhibited-in-indias-new-parliament-and-at-the-g20-summit.png",
+        "ground_truth": "Chepauk Stadium Museum, Chennai",
+        "output": "Answer: G20 Summit venue"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-kenyan-politician-raila-odinga-being-crowned-a-nigerian-elder-is-doctored-f02cc392b4ec.png",
+        "ground_truth": "Bangui, the Central African Republic",
+        "output": "Answer: Ethiopia"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-photo-is-not-of-ugandas-first-lady-dcedc9aa6955.png",
+        "ground_truth": "Uganda",
+        "output": "Answer: Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-two-different-persons-with-narendra-modi-are-falsely-shared-as-the-same-person-featured-in-both.png",
+        "ground_truth": "Yashobhoomi Convention Centre in Delhi",
+        "output": "Answer: Gujarat"
+    },
+    {
+        "img_path": "dataset/processed_img/the-israeli-couple-in-this-selfie-picture-were-not-killed-by-hamas-militants-during-the-nova-music-festival-attack.png",
+        "ground_truth": "Nova Trance Music Festival",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/an-old-photo-of-israeli-prime-minister-benjamin-netanyahu-with-his-son-is-falsely-linked-to-the-ongoing-conflict.png",
+        "ground_truth": "Israel",
+        "output": "Answer: Airport in Israel"
+    },
+    {
+        "img_path": "dataset/processed_img/a-2022-photo-is-falsely-portrayed-as-the-recent-image-of-aap-mp-sanjay-singhs-arrest.png",
+        "ground_truth": "Central Bureau of Investigation, Delhi",
+        "output": "Answer: Uttar Pradesh"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-does-this-picture-show-part-of-bor-in-jonglei-state.png",
+        "ground_truth": "Miami Beach, Florida, US",
+        "output": "Miami Beach, Florida"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-a-protest-by-israelis-against-netanyahus-proposed-legal-reforms-in-early-2023-is-being-shared-with-misleading-claim.png",
+        "ground_truth": "Israel",
+        "output": "Answer: Tel Aviv, Israel"
+    },
+    {
+        "img_path": "dataset/processed_img/a-fictional-story-linked-with-an-old-unrelated-photo-shared-as-retired-colonels-suicide-in-lucknow.png",
+        "ground_truth": "Puranakhedi, Madhya Pradesh",
+        "output": "Answer: Siwan, Bihar"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-image-of-a-hippo-and-a-shark-on-the-road-during-kampalas-recent-floods-legitimate.png",
+        "ground_truth": "Kampala.",
+        "output": "Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-of-jaivardhan-singh-shared-now-in-the-context-of-kamal-naths-recent-remarks.png",
+        "ground_truth": "Bhopal, Madhya Pradesh",
+        "output": "I'm sorry, but I can't determine where the image was taken based on the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/hoax-this-facebook-post-using-gospel-musician-karangu-murayas-image-and-claiming-to-issue-loans-cb8e8923c7dc.png",
+        "ground_truth": "Nanyuki, Kenya, as suggested by the original use of the image.",
+        "output": "Answer: Nairobi"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-a-photo-of-juba-south-sudan.png",
+        "ground_truth": "Nairobi, Kenya",
+        "output": "Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-a-girl-who-survived-a-bomb-attack-in-syria-in-2016-are-falsely-passed-off-as-a-palestinian-girl.png",
+        "ground_truth": "Aleppo, Syria",
+        "output": "Aleppo, Syria"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-picture-of-man-with-burning-candles-on-head-wasnt-taken-in-juba.png",
+        "ground_truth": "South Africa",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-vehicle-queues-in-argentina-ae8c5dd19134.png",
+        "ground_truth": "Kapsabet, Kenya",
+        "output": "Answer: Near a Shell station in Nairobi"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-pictures-shared-as-the-visuals-of-rashid-khan-waving-the-indian-flag-after-afghanistan-defeated-pakistan-in-cwc-2023.png",
+        "ground_truth": "Men\u2019s World Cup 2023, Chennai",
+        "output": "Answer: Cricket stadium, likely in India."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-of-two-men-carrying-a-leopard-isnt-from-torit.png",
+        "ground_truth": "Kenya",
+        "output": "Niamana Livestock market, Bamako, Mali"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-trucks-trying-to-transport-grains-from-karnataka-to-telangana-in-2022-are-now-being-shared.png",
+        "ground_truth": "Karnataka, India at the state border with Telangana, India.",
+        "output": "Answer: Vadlamuru village, Andhra Pradesh, India"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-is-not-of-the-serena-hotel-in-kenya.png",
+        "ground_truth": "Swiss Alps, Switzerland",
+        "output": "Answer: This image appears to depict the \"MahaNakhon\" tower in Bangkok, Thailand."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-a-picture-of-a-road-washed-by-rain-in-south-sudan.png",
+        "ground_truth": "Between Garissa and Modogashe in Kenya",
+        "output": "Answer: Kodada market, Homa Bay County"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-doesnt-show-floods-in-nairobi-1f1660694343.png",
+        "ground_truth": "Kibarani, Mombasa County, Kenya",
+        "output": "Answer: Syokimau estate in Machakos County"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-shows-congress-mps-protesting-in-black-attire-against-gst-price-rise-and-unemployment-not-ayodhya-ram-temple.png",
+        "ground_truth": "New Delhi",
+        "output": "Answer: Parliament House, New Delhi"
+    },
+    {
+        "img_path": "dataset/processed_img/two-unrelated-old-images-are-being-shared-claiming-that-people-in-gaza-burnt-a-donkey-painted-as-the-israeli-flag.png",
+        "ground_truth": "West Bank settlement ; Rafah in the southern Gaza Strip",
+        "output": "Answer: West Bank"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-picture-related-to-the-situation-in-congo-in-2023.png",
+        "ground_truth": "Zaire (currently the Democratic Republic of Congo)",
+        "output": "I'm sorry, but I can't determine the location where this image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-showing-pupils-doing-exams-in-an-open-space-isnt-from-uganda.png",
+        "ground_truth": "Yirol County of Lakes State, South Sudan",
+        "output": "The Gambia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-kenyas-nairobi-river-7472a7304ec2.png",
+        "ground_truth": "Citarum River, Indonesia",
+        "output": "Answer: A polluted river in India"
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-of-a-woman-walking-down-the-staircase-of-a-destroyed-building-is-old-412ad1ba1077.png",
+        "ground_truth": "Homs, Syria",
+        "output": "Answer: Mosul City, Iraq"
+    },
+    {
+        "img_path": "dataset/processed_img/visuals-of-two-different-individuals-shared-as-before-and-after-images-of-a-man-who-sustained-burns-while-rescuing-his-girlfriend.png",
+        "ground_truth": "Shanghai, China",
+        "output": "I'm sorry, but I can't determine the location where the image was taken."
+    },
+    {
+        "img_path": "dataset/processed_img/an-edited-image-is-being-shared-to-falsely-claim-that-rohit-sharmas-catch-in-the-world-cup-final-was-not-clean.png",
+        "ground_truth": "2023 Mens Cricket World Cup final",
+        "output": "Answer: Not specified in the provided evidence."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ugandas-government-spokesperson-attending-nyege-nyege-festival-b34b52e75ffe.png",
+        "ground_truth": "Geno family farm in the Tororo District",
+        "output": "Answer: Not specified in the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-image-of-damaged-kenyas-sgr-corridor-is-not-from-2023-b383ceb2915b.png",
+        "ground_truth": "Section of the SGR protection slope, around Kambu area in Makueni County, Kenya",
+        "output": "Answer: Homa Bay County"
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-of-a-journalist-wounded-by-an-israeli-grenade-is-not-from-2023-0c4ec931dd6c.png",
+        "ground_truth": "East Jerusalem",
+        "output": "Jerusalem, Israel"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-bomet-town-a879dfbee232.png",
+        "ground_truth": "Nairobi, Kenya",
+        "output": "Nairobi, Kenya"
+    },
+    {
+        "img_path": "dataset/processed_img/seema-haiders-ex-husband-is-still-alive-unrelated-old-videos-and-images-shared-as-the-funeral-procession-visuals-of-seema-haiders-ex-husband.png",
+        "ground_truth": "Palestine ; Rajasthan, India",
+        "output": "Answer: Pakistan"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-the-greek-goddess-aphrodites-sculpture-is-being-falsely-shared-as-2000-year-old-maa-saraswatis-sculpture.png",
+        "ground_truth": "Cyprus",
+        "output": "Answer: Not specified in the provided information."
+    },
+    {
+        "img_path": "dataset/processed_img/photo-misrepresented-as-pm-modi-ignoring-greetings-from-president-vice-president-and-lok-sabha-speaker.png",
+        "ground_truth": "New Parliament House in New Delhi",
+        "output": "Answer: Rashtrapati Bhavan, New Delhi"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-is-not-an-image-of-a-stabex-filling-station-affixed-on-a-rooftop-341b472d3f80.png",
+        "ground_truth": "Yuzhong District of Chongqing City",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/two-unrelated-images-are-being-shared-alleging-that-virat-kohli-dined-on-beef-at-gordan-ramsays-restaurant.png",
+        "ground_truth": "Gordon Ramsay Steak, located at the Atlantic City Hotel and Casino",
+        "output": "Answer: UAE"
+    },
+    {
+        "img_path": "dataset/processed_img/no-lakhs-of-shiva-lingas-did-not-emerge-from-the-shalmala-river-at-the-sahasralinga-pilgrimage-site-in-karnataka.png",
+        "ground_truth": "Sahasralinga pilgrimage site, Uttara Kannada district, Karnataka",
+        "output": "Answer: Unknown location"
+    },
+    {
+        "img_path": "dataset/processed_img/image-of-rajasthan-cm-bhajan-lal-sharma-boarding-a-bus-is-being-shared-with-a-misleading-assertion.png",
+        "ground_truth": "Rajasthan, India",
+        "output": "Answer: On a public bus in India"
+    },
+    {
+        "img_path": "dataset/processed_img/image-shared-as-the-last-tree-in-rocinha-brazil-is-a-digitally-created-one.png",
+        "ground_truth": "Rocinha, Brazil (Digitally Manipulated)",
+        "output": "Answer: Rio de Janeiro, Brazil"
+    },
+    {
+        "img_path": "dataset/processed_img/review-delhi-hc-rules-that-reckless-defamatory-humiliating-and-unsubstantiated-allegations-by-one-spouse-tarnishing-the-image-of-the-other-are-acts-of-extreme-cruelty.png",
+        "ground_truth": "Delhi, India",
+        "output": "Answer: Delhi, India"
+    }
+]

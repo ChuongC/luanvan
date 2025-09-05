@@ -1,0 +1,70 @@
+
+import os
+import json
+import re
+from unidecode import unidecode
+
+def fix_image_paths(json_path, image_folder):
+    def normalize(text):
+        # Chuẩn hoá tiêu đề bài viết để khớp với tên file ảnh
+        text = unidecode(text.lower())
+        text = re.sub(r'[^a-z0-9\-]+', '-', text)
+        return text.strip('-')
+
+    def extract_slug_from_url(url):
+        # Trích slug từ URL cuối (bỏ .html/.htm)
+        filename = url.strip().split('/')[-1]
+        return filename.replace('.htm', '').replace('.html', '').strip()
+
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    image_files = os.listdir(image_folder)
+    updated = 0
+    fallback_used = 0
+    not_found = []
+
+    for item in data:
+        url_slug = extract_slug_from_url(item.get('URL', ''))
+        title_slug = normalize(item.get('title', '')) if item.get('title') else ''
+
+        matched_img = None
+
+        # 1️⃣ Ưu tiên match theo url_slug
+        for img in image_files:
+            if url_slug and url_slug in img:
+                matched_img = img
+                break
+
+        # 2️⃣ Nếu không khớp, thử fallback bằng title_slug
+        if not matched_img and title_slug:
+            for img in image_files:
+                if title_slug in img:
+                    matched_img = img
+                    fallback_used += 1
+                    break
+
+        # 3️⃣ Ghi nhận kết quả
+        if matched_img:
+            item['image_path'] = os.path.join(image_folder, matched_img)
+            updated += 1
+        else:
+            not_found.append((url_slug, title_slug))
+
+    # Ghi lại kết quả
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    # Thống kê
+    print(f"✅ Đã cập nhật thành công {updated} ảnh trong {json_path}")
+    print(f"🔁 Trong đó có {fallback_used} ảnh được match bằng title_slug fallback")
+    if not_found:
+        print(f"❌ Còn {len(not_found)} ảnh không thể khớp:")
+        for url_slug, title_slug in not_found:
+            print(f"  - URL Slug: {url_slug}\n    Title Slug: {title_slug}")
+
+# Chạy cho các tập dữ liệu
+fix_image_paths('dataset/train_custom.json', 'dataset/img_crawl')
+fix_image_paths('dataset/test_custom.json', 'dataset/img_crawl')
+fix_image_paths('dataset/val_custom.json', 'dataset/img_crawl')
+fix_image_paths('dataset/labeled_articles.json', 'dataset/img_crawl')

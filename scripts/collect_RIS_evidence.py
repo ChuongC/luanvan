@@ -1,0 +1,228 @@
+from google.cloud import vision
+import os 
+from tqdm import tqdm
+import time
+import sys 
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
+from utils import *
+from dataset_collection.scrape_utils import *
+import argparse
+
+
+
+# def detect_web(image_path, 
+#                api_key,
+#                how_many_queries=30):
+#     """
+#     Detects web annotations given an image.
+#     """
+#     api_url = 'https://vision.googleapis.com/v1/images:annotate?key=' + api_key
+#     with open(image_path, 'rb') as image_file:
+#         image_data = base64.b64encode(image_file.read()).decode('utf-8')
+#         payload = {
+#             "requests": [
+#                 {
+#                     "image": {
+#                         "content": image_data
+#                     },
+#                     "features": [
+#                         {
+#                             "type": "WEB_DETECTION",
+#                             "maxResults": how_many_queries
+#                         }
+#                     ]
+#                 }
+#             ]
+#         }
+#     response = requests.post(api_url, json=payload)
+#     annotations = response.json()['responses'][0]['webDetection']
+#     page_urls = []
+#     matching_image_urls = {}
+#     visual_entities = {}
+
+#     if 'pagesWithMatchingImages' in annotations.keys():
+#         print(
+#             "\n{} Pages with matching images found:".format(
+#                 len(annotations['pagesWithMatchingImages'])
+#             )
+#         )
+        
+#         for page in annotations['pagesWithMatchingImages']:
+#             page_urls.append(page['url'])
+#             if 'fullMatchingImages' in  page.keys():
+#                 #List of image URLs for that webpage (the image can appear more than once)
+#                 matching_image_urls[page['url']] = [image['url'] for image in page['fullMatchingImages']]
+#             else:
+#                 matching_image_urls[page['url']] = []
+#             if 'partialMatchingImages' in  page.keys(): 
+#                 matching_image_urls[page['url']] += [image['url'] for image in page['partialMatchingImages']] 
+#     else:
+#         print('No matching images found for ' + path)
+#     if 'webEntities' in annotations.keys():
+#         for entity in annotations['webEntities']:
+#             #Collect web entities as entity-score dictionary pairs
+#             if 'description' in entity.keys():
+#                 visual_entities[entity['description']] = entity['score']
+
+#     if 'error' in annotations.keys():
+#         raise Exception(
+#             "{}\nFor more info on error messages, check: "
+#             "https://cloud.google.com/apis/design/errors".format(response['error']['message'])
+#         )
+    
+#     return page_urls, matching_image_urls, visual_entities
+
+def detect_web(image_path, api_key, how_many_queries=30):
+    """
+    Detects web annotations given an image using Google Vision API.
+    Trả về:
+        - page_urls: list các trang chứa ảnh
+        - matching_image_urls: dict {url: [list ảnh trùng khớp]}
+        - visual_entities: dict {description: score}
+    """
+    api_url = f'https://vision.googleapis.com/v1/images:annotate?key={api_key}'
+    with open(image_path, 'rb') as image_file:
+        image_data = base64.b64encode(image_file.read()).decode('utf-8')
+
+    payload = {
+        "requests": [
+            {
+                "image": {"content": image_data},
+                "features": [
+                    {"type": "WEB_DETECTION", "maxResults": how_many_queries}
+                ],
+            }
+        ]
+    }
+
+    try:
+        response = requests.post(api_url, json=payload)
+        response.raise_for_status()
+        result = response.json()
+    except Exception as e:
+        print(f"[ERROR] API request failed for {image_path}: {e}")
+        return [], {}, {}
+
+    annotations = result.get("responses", [{}])[0].get("webDetection", {})
+
+    page_urls = []
+    matching_image_urls = {}
+    visual_entities = {}
+
+    # Các trang chứa ảnh trùng khớp
+    for page in annotations.get("pagesWithMatchingImages", []):
+        url = page.get("url", "")
+        if not url:
+            continue
+        page_urls.append(url)
+
+        matches = []
+        matches += [img.get("url") for img in page.get("fullMatchingImages", []) if "url" in img]
+        matches += [img.get("url") for img in page.get("partialMatchingImages", []) if "url" in img]
+
+        matching_image_urls[url] = matches
+
+    if page_urls:
+        print(f"\n✅ {len(page_urls)} pages with matching images found for {os.path.basename(image_path)}")
+    else:
+        print(f"⚠️ No matching images found for {os.path.basename(image_path)}")
+
+    # Web entities (thực thể trực quan)
+    for entity in annotations.get("webEntities", []):
+        desc = entity.get("description")
+        score = entity.get("score", 0.0)
+        if desc:
+            visual_entities[desc] = score
+
+    # Kiểm tra lỗi từ API
+    if "error" in annotations:
+        err_msg = annotations["error"].get("message", "Unknown error")
+        raise Exception(
+            f"[API ERROR] {err_msg}\n"
+            "Check: https://cloud.google.com/apis/design/errors"
+        )
+
+    return page_urls, matching_image_urls, visual_entities
+
+
+
+if __name__=='__main__':
+    parser = argparse.ArgumentParser(description='Collect evidence using Google Reverse Image Search.')
+    parser.add_argument('--collect_google', type=int, default=0, 
+                        help='Whether to collect evidence URLs with the google API. If 0, it is assumed that a file containing URLs already exists.')
+    parser.add_argument('--evidence_urls', type=str, default='dataset/retrieval_results/evidence_urls.json',
+                        help='Path to the list of evidence URLs to scrape. Needs to be a valid file if collect_google is set to 0.')
+    parser.add_argument('--google_vision_api_key', type=str,  default= "", #Provide your own key here as default value
+                        help='Your key to access the Google Vision services, including the web detection API. Only needed if collect_google is set to 1.')  
+    parser.add_argument('--image_path', type=str, default='dataset/processed_img/',
+                        help='The folder where the images are stored.') 
+    parser.add_argument('--raw_ris_urls_path', type=str, default='dataset/retrieval_results/ris_results.json',
+                        help='The json file to store the raw RIS results.') 
+    parser.add_argument('--scrape_with_trafilatura', type=int, default=1, 
+                        help='Whether to scrape the evidence URLs with trafilatura. If 0, it is assumed that a file containing the scraped webpages already exists.') 
+    parser.add_argument('--trafilatura_path', type=str, default='dataset/retrieval_results/trafilatura_data.json',
+                        help='The json file to store the scraped trafilatura  content as a json file.')
+    parser.add_argument('--apply_filtering', type=int, default=0,
+                        help='If 1, remove evidence published after the source FC article. Not needed if using the default evidence set')
+    parser.add_argument('--json_path', type=str, default='dataset/retrieval_results/evidence.json',
+                        help='The json file to store the text evidence as a json file.')
+    parser.add_argument('--max_results', type=int, default=50,
+                        help='The maximum number of web-pages to collect with the web detection API.') 
+    parser.add_argument('--sleep', type=int, default=3,
+                        help='The waiting time between two web detection API calls') 
+    
+
+    args = parser.parse_args()
+    #key = os.getenv(args.google_vision_api_key)
+    key = os.getenv(args.google_vision_api_key, args.google_vision_api_key)
+    #Create directories if they do not exist yet
+    if not 'retrieval_results'  in os.listdir('dataset/'):
+        os.mkdir('dataset/retrieval_results/')
+
+    #Google RIS
+    if args.collect_google:
+        #Change the output file
+        raw_ris_results = []
+        for path in tqdm(os.listdir(args.image_path)):
+            urls, image_urls, vis_entities  = detect_web(args.image_path +path, 
+                                                         key, 
+                                                         args.max_results)
+            
+            raw_ris_results.append({'image_path':args.image_path + path, 
+                                    'urls': urls, 
+                                    'image_urls': image_urls,  
+                                    'visual_entities': vis_entities
+                                    }
+            )
+            time.sleep(args.sleep)
+        with open(args.raw_ris_urls_path, 'w') as file:
+            #Save raw results
+            json.dump(raw_ris_results, file, indent=4)
+        #Apply filtering to the URLs to remove content produced by FC organizations and content that is not scrapable
+        selected_data = get_filtered_retrieval_results(args.raw_ris_urls_path)
+
+    else:
+        #Load evidence that have already been collected 
+        #Further ensure that there is a corresponding image already downloaded
+        selected_data = [d for d in load_json(args.evidence_urls) if d['image_path'].split('/')[-1] in os.listdir('dataset/processed_img/')]
+        
+    urls = [d['raw_url'] for d in selected_data]
+    images = [d['image_urls'] for d in selected_data]
+
+    if args.scrape_with_trafilatura:
+        #Collect results with Trafilatura
+        output = []
+        for u in tqdm(range(len(urls))):
+            output.append(extract_info_trafilatura(urls[u],images[u]))
+            #Only store in json file every 50 evidence
+            if u%50==0:
+                save_result(output,args.trafilatura_path) 
+                output = []
+    
+    #Save all results in a Pandas Dataframe
+    evidence_trafilatura = load_json(args.trafilatura_path)
+    dataset = load_json('dataset/train.json') + load_json('dataset/val.json')  + load_json('dataset/test.json')
+    evidence = merge_data(evidence_trafilatura, selected_data, dataset, apply_filtering=args.apply_filtering).fillna('').to_dict(orient='records')
+    # Save the list of dictionaries as a JSON file
+    with open(args.json_path, 'w') as file:
+        json.dump(evidence, file, indent=4)
